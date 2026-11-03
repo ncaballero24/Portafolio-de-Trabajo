@@ -1,0 +1,5 @@
+Options -Indexes
+
+<FilesMatch "\.(env|sql|py|ps1|cmd|bat|sh|ini|log)$">
+  Require all denied
+</FilesMatch>

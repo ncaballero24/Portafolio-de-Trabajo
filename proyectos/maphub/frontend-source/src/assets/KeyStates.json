@@ -1,0 +1,226 @@
+{
+  "MXAGU": {
+    "nombre": "Aguascalientes",
+    "poblacion": 1235883,
+    "recursoFinanciero": 180000,
+    "recursoHumano": 42000,
+    "personalActivo": 35000
+  },
+  "MXBCN": {
+    "nombre": "Baja California",
+    "poblacion": 3769020,
+    "recursoFinanciero": 420000,
+    "recursoHumano": 95000,
+    "personalActivo": 78000
+  },
+  "MXBCS": {
+    "nombre": "Baja California Sur",
+    "poblacion": 798447,
+    "recursoFinanciero": 120000,
+    "recursoHumano": 26000,
+    "personalActivo": 21000
+  },
+  "MXCAM": {
+    "nombre": "Campeche",
+    "poblacion": 928363,
+    "recursoFinanciero": 160000,
+    "recursoHumano": 30000,
+    "personalActivo": 24000
+  },
+  "MXCHH": {
+    "nombre": "Chihuahua",
+    "poblacion": 3741869,
+    "recursoFinanciero": 390000,
+    "recursoHumano": 88000,
+    "personalActivo": 72000
+  },
+  "MXCHP": {
+    "nombre": "Chiapas",
+    "poblacion": 5543828,
+    "recursoFinanciero": 210000,
+    "recursoHumano": 110000,
+    "personalActivo": 85000
+  },
+  "MXCMX": {
+    "nombre": "Ciudad de México",
+    "poblacion": 9209944,
+    "recursoFinanciero": 900000,
+    "recursoHumano": 250000,
+    "personalActivo": 210000
+  },
+  "MXCOA": {
+    "nombre": "Coahuila",
+    "poblacion": 3146771,
+    "recursoFinanciero": 340000,
+    "recursoHumano": 78000,
+    "personalActivo": 64000
+  },
+  "MXCOL": {
+    "nombre": "Colima",
+    "poblacion": 731391,
+    "recursoFinanciero": 110000,
+    "recursoHumano": 24000,
+    "personalActivo": 19000
+  },
+  "MXDUR": {
+    "nombre": "Durango",
+    "poblacion": 1832650,
+    "recursoFinanciero": 200000,
+    "recursoHumano": 50000,
+    "personalActivo": 42000
+  },
+  "MXGRO": {
+    "nombre": "Guerrero",
+    "poblacion": 3540685,
+    "recursoFinanciero": 230000,
+    "recursoHumano": 82000,
+    "personalActivo": 65000
+  },
+  "MXGUA": {
+    "nombre": "Guanajuato",
+    "poblacion": 6166934,
+    "recursoFinanciero": 360000,
+    "recursoHumano": 140000,
+    "personalActivo": 115000
+  },
+  "MXHID": {
+    "nombre": "Hidalgo",
+    "poblacion": 3082841,
+    "recursoFinanciero": 250000,
+    "recursoHumano": 76000,
+    "personalActivo": 62000
+  },
+  "MXJAL": {
+    "nombre": "Jalisco",
+    "poblacion": 8348151,
+    "recursoFinanciero": 520000,
+    "recursoHumano": 180000,
+    "personalActivo": 150000
+  },
+  "MXMEX": {
+    "nombre": "Estado de México",
+    "poblacion": 16992418,
+    "recursoFinanciero": 650000,
+    "recursoHumano": 300000,
+    "personalActivo": 250000
+  },
+  "MXMIC": {
+    "nombre": "Michoacán",
+    "poblacion": 4748846,
+    "recursoFinanciero": 280000,
+    "recursoHumano": 105000,
+    "personalActivo": 85000
+  },
+  "MXMOR": {
+    "nombre": "Morelos",
+    "poblacion": 1971520,
+    "recursoFinanciero": 190000,
+    "recursoHumano": 48000,
+    "personalActivo": 40000
+  },
+  "MXNAY": {
+    "nombre": "Nayarit",
+    "poblacion": 1235456,
+    "recursoFinanciero": 150000,
+    "recursoHumano": 35000,
+    "personalActivo": 28000
+  },
+  "MXNLE": {
+    "nombre": "Nuevo León",
+    "poblacion": 5784442,
+    "recursoFinanciero": 600000,
+    "recursoHumano": 160000,
+    "personalActivo": 130000
+  },
+  "MXOAX": {
+    "nombre": "Oaxaca",
+    "poblacion": 4132148,
+    "recursoFinanciero": 220000,
+    "recursoHumano": 90000,
+    "personalActivo": 70000
+  },
+  "MXPUE": {
+    "nombre": "Puebla",
+    "poblacion": 6583278,
+    "recursoFinanciero": 370000,
+    "recursoHumano": 145000,
+    "personalActivo": 120000
+  },
+  "MXQUE": {
+    "nombre": "Querétaro",
+    "poblacion": 2368467,
+    "recursoFinanciero": 310000,
+    "recursoHumano": 70000,
+    "personalActivo": 58000
+  },
+  "MXROO": {
+    "nombre": "Quintana Roo",
+    "poblacion": 1857985,
+    "recursoFinanciero": 260000,
+    "recursoHumano": 60000,
+    "personalActivo": 50000
+  },
+  "MXSIN": {
+    "nombre": "Sinaloa",
+    "poblacion": 3026943,
+    "recursoFinanciero": 290000,
+    "recursoHumano": 80000,
+    "personalActivo": 65000
+  },
+  "MXSLP": {
+    "nombre": "San Luis Potosí",
+    "poblacion": 2822255,
+    "recursoFinanciero": 270000,
+    "recursoHumano": 72000,
+    "personalActivo": 60000
+  },
+  "MXSON": {
+    "nombre": "Sonora",
+    "poblacion": 2944840,
+    "recursoFinanciero": 330000,
+    "recursoHumano": 78000,
+    "personalActivo": 65000
+  },
+  "MXTAB": {
+    "nombre": "Tabasco",
+    "poblacion": 2402598,
+    "recursoFinanciero": 240000,
+    "recursoHumano": 65000,
+    "personalActivo": 52000
+  },
+  "MXTAM": {
+    "nombre": "Tamaulipas",
+    "poblacion": 3527735,
+    "recursoFinanciero": 350000,
+    "recursoHumano": 90000,
+    "personalActivo": 75000
+  },
+  "MXTLA": {
+    "nombre": "Tlaxcala",
+    "poblacion": 1342977,
+    "recursoFinanciero": 140000,
+    "recursoHumano": 36000,
+    "personalActivo": 30000
+  },
+  "MXVER": {
+    "nombre": "Veracruz",
+    "poblacion": 8062579,
+    "recursoFinanciero": 320000,
+    "recursoHumano": 150000,
+    "personalActivo": 120000
+  },
+  "MXYUC": {
+    "nombre": "Yucatán",
+    "poblacion": 2320898,
+    "recursoFinanciero": 280000,
+    "recursoHumano": 70000,
+    "personalActivo": 58000
+  },
+  "MXZAC": {
+    "nombre": "Zacatecas",
+    "poblacion": 1622138,
+    "recursoFinanciero": 170000,
+    "recursoHumano": 42000,
+    "personalActivo": 35000
+  }
+}

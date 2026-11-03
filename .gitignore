@@ -1,0 +1,15 @@
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+!.env.example
+*.log
+*.bak
+*.sqlite*
+.DS_Store
+Thumbs.db
+proyectos/maphub/frontend-source/dist/
+proyectos/maphub/terrestre/evidencias/
+proyectos/transcriptor/salidas/

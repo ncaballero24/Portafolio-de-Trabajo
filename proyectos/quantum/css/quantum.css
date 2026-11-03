@@ -1,0 +1,3253 @@
+﻿:root {
+  --quantum-blue: #013d6d;
+  --quantum-blue-2: #075a8b;
+  --quantum-turquoise: #40e0d0;
+  --quantum-cyan: #3ebff7;
+  --quantum-graphite: #1e293b;
+  --quantum-ink: #102033;
+  --quantum-muted: #64748b;
+  --quantum-line: #d7e3eb;
+  --quantum-surface: #ffffff;
+  --quantum-canvas: #f2f7fa;
+  --quantum-soft: #e9f8fb;
+  --quantum-danger: #c63f52;
+  --quantum-shadow: 0 14px 34px rgba(1, 61, 109, 0.1);
+}
+
+* {
+  letter-spacing: 0;
+}
+
+body {
+  color: var(--quantum-graphite);
+  background: var(--quantum-canvas);
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--quantum-blue);
+}
+
+a {
+  color: var(--quantum-blue-2);
+}
+
+::selection {
+  color: var(--quantum-ink);
+  background: var(--quantum-turquoise);
+}
+
+:focus-visible {
+  outline: 3px solid var(--quantum-cyan);
+  outline-offset: 3px;
+}
+
+.skip-link {
+  color: #fff;
+  background: var(--quantum-blue);
+}
+
+.site-header {
+  position: relative;
+  z-index: 1000;
+  color: var(--quantum-graphite);
+  border: 0;
+  background: var(--quantum-surface);
+  box-shadow: 0 5px 24px rgba(1, 61, 109, 0.08);
+}
+
+.site-header .top-header {
+  width: min(1320px, calc(100% - 40px));
+  min-height: 112px;
+  margin: 0 auto;
+  padding: 14px 0;
+  border: 0;
+  background: transparent;
+}
+
+.quantum-brand {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  min-width: 0;
+}
+
+.quantum-brand > img {
+  width: 82px;
+  height: 82px;
+  flex: 0 0 82px;
+  object-fit: contain;
+}
+
+.quantum-brand-copy {
+  display: grid;
+  min-width: 0;
+}
+
+.quantum-brand-copy strong {
+  color: var(--quantum-blue);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 0.95;
+}
+
+.quantum-brand-copy small {
+  margin-top: 8px;
+  color: var(--quantum-graphite);
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.header-right {
+  gap: 12px;
+}
+
+.search-box input {
+  width: min(330px, 34vw);
+  height: 44px;
+  padding: 0 16px;
+  color: var(--quantum-graphite);
+  border: 1px solid #bdd1df;
+  border-radius: 3px;
+  background: #f8fbfd;
+  box-shadow: none;
+}
+
+.search-box input::placeholder {
+  color: #72869a;
+}
+
+.search-box input:focus {
+  border-color: var(--quantum-cyan);
+  background: #fff;
+}
+
+.menu-btn {
+  width: 44px;
+  height: 44px;
+  color: #fff;
+  border: 0;
+  border-radius: 3px;
+  background: var(--quantum-blue);
+  box-shadow: none;
+}
+
+.menu-btn:hover {
+  color: var(--quantum-blue);
+  background: var(--quantum-turquoise);
+}
+
+.menu-content {
+  min-width: 240px;
+  padding: 7px;
+  border: 1px solid var(--quantum-line);
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: var(--quantum-shadow);
+}
+
+.menu-content a {
+  color: var(--quantum-graphite);
+  border-radius: 2px;
+}
+
+.menu-content a:hover {
+  color: var(--quantum-blue);
+  background: var(--quantum-soft);
+}
+
+.site-header .nav-principal {
+  justify-content: center;
+  gap: 2px;
+  padding: 0 20px;
+  border: 0;
+  background: var(--quantum-blue);
+}
+
+.site-header .nav-principal a {
+  padding: 14px 16px;
+  color: #d9f4fb;
+  border: 0;
+  border-bottom: 3px solid transparent;
+  border-radius: 0;
+  background: transparent;
+  font-size: 0.86rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.site-header .nav-principal a:hover {
+  color: #fff;
+  border-bottom-color: var(--quantum-turquoise);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.breaking-news {
+  padding: 0;
+  background: var(--quantum-graphite);
+  border: 0;
+}
+
+.breaking-news-inner {
+  width: min(1320px, calc(100% - 40px));
+  min-height: 54px;
+  margin: auto;
+  padding: 0;
+  color: #fff;
+  border: 0;
+  border-left: 5px solid var(--quantum-turquoise);
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.breaking-label {
+  min-height: 54px;
+  padding: 0 18px;
+  color: var(--quantum-blue);
+  background: var(--quantum-turquoise);
+}
+
+.breaking-dot {
+  background: var(--quantum-blue);
+  box-shadow: none;
+}
+
+.breaking-marquee p,
+.breaking-source {
+  color: #fff;
+}
+
+.breaking-source {
+  border-color: rgba(255, 255, 255, 0.18);
+}
+
+.breaking-aviso .breaking-news-inner,
+.breaking-informativo .breaking-news-inner {
+  border-color: var(--quantum-cyan);
+  background: transparent;
+}
+
+.contenedor,
+.detalle {
+  width: min(1320px, calc(100% - 40px));
+  max-width: 1320px;
+  color: var(--quantum-graphite);
+}
+
+.contenedor {
+  grid-template-columns: minmax(0, 1fr) 310px;
+  gap: 28px;
+}
+
+.seccion-titulo {
+  position: relative;
+  margin: 44px 0 20px;
+  padding: 0 0 11px;
+  color: var(--quantum-blue);
+  border: 0;
+  border-bottom: 1px solid var(--quantum-line);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2rem;
+}
+
+.seccion-titulo::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 82px;
+  height: 4px;
+  background: var(--quantum-turquoise);
+}
+
+.slider {
+  min-height: 440px;
+  overflow: hidden;
+  border: 0;
+  border-radius: 6px;
+  background: var(--quantum-blue);
+  box-shadow: var(--quantum-shadow);
+}
+
+.slide {
+  position: relative;
+  min-height: 440px;
+}
+
+.slide::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(1, 35, 63, 0.92) 0%, rgba(1, 35, 63, 0.62) 48%, rgba(1, 35, 63, 0.08) 100%);
+}
+
+.slide img {
+  width: 100%;
+  height: 440px;
+  object-fit: cover;
+}
+
+.hero-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  width: min(650px, 72%);
+  padding: 42px;
+  color: #fff;
+  background: transparent;
+}
+
+.hero-content h2 {
+  color: #fff;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 3.4rem;
+  line-height: 1.02;
+  text-shadow: 0 2px 18px rgba(0, 0, 0, 0.35);
+}
+
+.hero-content p {
+  color: #e9f6fb;
+  font-size: 1.03rem;
+  line-height: 1.65;
+}
+
+.categoria {
+  display: inline-block;
+  padding: 6px 10px;
+  color: var(--quantum-blue);
+  border: 0;
+  border-radius: 2px;
+  background: var(--quantum-turquoise);
+  font-size: 0.72rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.btn {
+  color: #fff;
+  border: 1px solid var(--quantum-blue);
+  border-radius: 3px;
+  background: var(--quantum-blue);
+  box-shadow: none;
+  font-weight: 750;
+  transition: transform 0.2s ease, background 0.2s ease, border-color 0.2s ease;
+}
+
+.btn:hover {
+  color: var(--quantum-blue);
+  border-color: var(--quantum-turquoise);
+  background: var(--quantum-turquoise);
+  transform: translateY(-2px);
+}
+
+.btn-secundario {
+  color: var(--quantum-blue);
+  border-color: #9db8ca;
+  background: #fff;
+}
+
+.btn-danger {
+  color: #fff;
+  border-color: var(--quantum-danger);
+  background: var(--quantum-danger);
+}
+
+.noticias-grid {
+  gap: 20px;
+}
+
+.card {
+  overflow: hidden;
+  color: var(--quantum-graphite);
+  border: 1px solid var(--quantum-line);
+  border-radius: 6px;
+  background: var(--quantum-surface);
+  box-shadow: 0 8px 22px rgba(1, 61, 109, 0.06);
+}
+
+.card:hover {
+  border-color: #91dce8;
+  box-shadow: var(--quantum-shadow);
+  transform: translateY(-4px);
+}
+
+.card img {
+  border-radius: 0;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card h2,
+.card h3 {
+  color: var(--quantum-blue);
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.2;
+}
+
+.card p {
+  color: var(--quantum-muted);
+  line-height: 1.65;
+}
+
+.sidebar-portada,
+.contenedor > aside {
+  height: fit-content;
+  padding: 22px;
+  color: var(--quantum-graphite);
+  border: 1px solid var(--quantum-line);
+  border-top: 5px solid var(--quantum-cyan);
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 10px 28px rgba(1, 61, 109, 0.06);
+}
+
+.sidebar-portada h2,
+.contenedor > aside h2 {
+  color: var(--quantum-blue);
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.reciente,
+.mas-leidas p {
+  border-color: var(--quantum-line);
+}
+
+.reciente {
+  padding: 15px 0;
+  color: var(--quantum-graphite);
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.reciente h3,
+.mas-leidas a {
+  color: var(--quantum-graphite);
+}
+
+.reciente p,
+.sidebar-portada small {
+  color: var(--quantum-muted);
+}
+
+.reciente a,
+.categorias a {
+  color: var(--quantum-blue-2);
+}
+
+.categorias a {
+  color: var(--quantum-blue);
+  border-color: var(--quantum-line);
+  border-radius: 2px;
+  background: #f4fafc;
+}
+
+.categorias a:hover {
+  color: var(--quantum-blue);
+  border-color: var(--quantum-turquoise);
+  background: var(--quantum-soft);
+}
+
+.newsletter-inline {
+  grid-column: 1 / -1;
+  color: #fff;
+  border: 0;
+  border-left: 6px solid var(--quantum-turquoise);
+  border-radius: 5px;
+  background: var(--quantum-blue);
+  box-shadow: var(--quantum-shadow);
+}
+
+.newsletter-inline span {
+  color: var(--quantum-turquoise);
+}
+
+.newsletter-inline h2,
+.newsletter-inline p {
+  color: #fff;
+}
+
+.newsletter-inline input {
+  color: var(--quantum-graphite);
+  border-color: #fff;
+  background: #fff;
+}
+
+.newsletter-inline .btn {
+  color: var(--quantum-blue);
+  border-color: var(--quantum-turquoise);
+  background: var(--quantum-turquoise);
+}
+
+.popup-overlay {
+  background: rgba(1, 26, 47, 0.78);
+  backdrop-filter: blur(5px);
+}
+
+.popup-box {
+  color: var(--quantum-graphite);
+  border: 1px solid var(--quantum-line);
+  border-top: 6px solid var(--quantum-turquoise);
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0 28px 70px rgba(1, 39, 69, 0.28);
+}
+
+.popup-box h2 {
+  color: var(--quantum-blue);
+}
+
+.popup-box p {
+  color: var(--quantum-muted);
+}
+
+.popup-box input {
+  color: var(--quantum-graphite);
+  border-color: #b9cedc;
+  background: #f8fbfd;
+}
+
+.popup-box button[type="submit"] {
+  color: var(--quantum-blue);
+  background: var(--quantum-turquoise);
+}
+
+.close-btn {
+  color: var(--quantum-blue);
+}
+
+.naval-dashboard {
+  overflow: hidden;
+  border: 1px solid #8ebbd1;
+  border-top: 5px solid var(--quantum-turquoise);
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: var(--quantum-shadow);
+}
+
+.mapa-operaciones-wrap,
+#mapaMaritimo {
+  border: 0;
+  border-radius: 0;
+}
+
+.panel-operaciones-naval {
+  color: #e7f6fb;
+  border: 0;
+  border-left: 1px solid rgba(64, 224, 208, 0.35);
+  border-radius: 0;
+  background: var(--quantum-blue);
+  box-shadow: none;
+}
+
+.panel-operaciones-naval h3,
+.panel-operaciones-naval p,
+.operacion-dato p,
+.operacion-sectores li {
+  color: #f3fbfd;
+}
+
+.panel-operaciones-header span,
+.operacion-dato > span {
+  color: var(--quantum-turquoise);
+}
+
+.panel-operaciones-header strong {
+  color: var(--quantum-blue);
+  border-color: var(--quantum-turquoise);
+  background: var(--quantum-turquoise);
+}
+
+.operacion-dato {
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.visor-leyenda-regiones {
+  border-top: 1px solid var(--quantum-line);
+  background: #f7fbfd;
+}
+
+.visor-leyenda-regiones span {
+  color: var(--quantum-graphite);
+}
+
+.naval-layer-control,
+.naval-search-control {
+  color: var(--quantum-graphite);
+  border: 1px solid #bad1df;
+  background: rgba(255, 255, 255, 0.96);
+  box-shadow: 0 8px 22px rgba(1, 61, 109, 0.14);
+}
+
+.busqueda-mapa-naval,
+.panel-capas-naval {
+  color: #eaf8fb !important;
+  border: 1px solid rgba(64, 224, 208, 0.55) !important;
+  border-radius: 5px !important;
+  background: rgba(1, 61, 109, 0.95) !important;
+  box-shadow: 0 10px 24px rgba(1, 35, 63, 0.25) !important;
+}
+
+.panel-capas-naval strong {
+  color: var(--quantum-turquoise) !important;
+}
+
+.busqueda-mapa-naval input {
+  color: #fff !important;
+  border-color: rgba(255, 255, 255, 0.3) !important;
+  background: rgba(0, 31, 56, 0.52) !important;
+}
+
+.busqueda-mapa-naval button {
+  color: var(--quantum-blue) !important;
+  border-color: var(--quantum-turquoise) !important;
+  background: var(--quantum-turquoise) !important;
+}
+
+.busqueda-mapa-naval .reset-mapa {
+  color: var(--quantum-cyan) !important;
+  border-color: rgba(62, 191, 247, 0.55) !important;
+  background: transparent !important;
+}
+
+.naval-layer-control strong {
+  color: var(--quantum-blue);
+}
+
+.naval-hq-marker {
+  color: #fff;
+  border-color: var(--quantum-turquoise);
+  background: var(--quantum-blue);
+  box-shadow: 0 0 0 4px rgba(64, 224, 208, 0.22), 0 8px 18px rgba(1, 61, 109, 0.32);
+}
+
+.sede-naval-pin {
+  color: var(--quantum-turquoise) !important;
+  border-color: var(--quantum-turquoise) !important;
+  background: var(--quantum-blue) !important;
+  box-shadow: 0 0 0 4px rgba(64, 224, 208, 0.25), 0 8px 18px rgba(1, 61, 109, 0.34) !important;
+}
+
+.tooltip-region-naval {
+  color: var(--quantum-blue) !important;
+  border-color: var(--quantum-cyan) !important;
+  background: rgba(255, 255, 255, 0.94) !important;
+}
+
+.naval-region-tooltip {
+  color: var(--quantum-blue);
+  border-color: var(--quantum-cyan);
+  background: rgba(255, 255, 255, 0.92);
+}
+
+.noticia-detalle,
+.comentarios,
+.relacionadas,
+.estado-vacio {
+  color: var(--quantum-graphite);
+  border: 1px solid var(--quantum-line);
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0 10px 30px rgba(1, 61, 109, 0.06);
+}
+
+.noticia-detalle h1,
+.comentarios h2,
+.relacionadas h2 {
+  color: var(--quantum-blue);
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.noticia-detalle .meta,
+.noticia-portada figcaption {
+  color: var(--quantum-muted);
+}
+
+.noticia-portada {
+  margin: 24px 0 22px;
+}
+
+.noticia-portada img {
+  border-radius: 5px;
+}
+
+.noticia-video {
+  margin: 24px 0 22px;
+}
+
+.noticia-video video,
+.video-actual video {
+  display: block;
+  width: 100%;
+  max-height: 560px;
+  border-radius: 5px;
+  background: #050b12;
+}
+
+.video-actual {
+  display: grid;
+  gap: 10px;
+}
+
+.noticia-medios {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px;
+  margin: 24px 0;
+}
+
+.noticia-medio {
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--quantum-line);
+  border-radius: 5px;
+  background: #f8fbfd;
+}
+
+.noticia-medio img,
+.noticia-medio video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-height: 420px;
+  object-fit: cover;
+  background: #050b12;
+}
+
+.noticia-medio-video {
+  grid-column: span 2;
+}
+
+@media (max-width: 700px) {
+  .noticia-medio-video {
+    grid-column: auto;
+  }
+}
+
+.noticia-medios-actuales {
+  display: grid;
+  gap: 12px;
+}
+
+.noticia-medios-admin-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 12px;
+}
+
+.noticia-medio-admin {
+  display: grid;
+  gap: 8px;
+  padding: 10px;
+  border: 1px solid var(--quantum-line);
+  border-radius: 5px;
+  background: #fff;
+}
+
+.noticia-medio-admin img,
+.noticia-medio-admin video {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  border-radius: 4px;
+  background: #050b12;
+}
+
+.contenido-noticia {
+  color: var(--quantum-graphite);
+}
+
+.contenido-noticia a {
+  color: var(--quantum-blue-2);
+  text-decoration-color: var(--quantum-turquoise);
+}
+
+.contenido-noticia table {
+  width: 100%;
+  margin: 1.5rem 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.contenido-noticia th,
+.contenido-noticia td {
+  padding: 14px 12px;
+  border: 1px solid var(--quantum-line);
+  text-align: left;
+  vertical-align: middle;
+}
+
+.contenido-noticia th {
+  font-weight: 700;
+}
+
+@media (max-width: 700px) {
+  .contenido-noticia {
+    overflow-x: auto;
+  }
+
+  .contenido-noticia table {
+    min-width: 640px;
+  }
+}
+
+.breadcrumbs {
+  color: var(--quantum-muted);
+}
+
+.breadcrumbs a {
+  color: var(--quantum-blue-2);
+}
+
+.compartir-noticia {
+  border-color: var(--quantum-line);
+}
+
+.compartir-noticia a,
+.compartir-noticia button {
+  color: var(--quantum-blue);
+  border-color: #a9c3d3;
+  border-radius: 2px;
+  background: #fff;
+}
+
+.compartir-noticia a:hover,
+.compartir-noticia button:hover {
+  border-color: var(--quantum-turquoise);
+  background: var(--quantum-soft);
+}
+
+.navegacion-noticias a {
+  color: var(--quantum-graphite);
+  border-color: var(--quantum-line);
+  border-radius: 4px;
+  background: #fff;
+}
+
+.navegacion-noticias span {
+  color: var(--quantum-blue-2);
+}
+
+.comentario-card {
+  color: var(--quantum-graphite);
+  border-color: var(--quantum-line);
+  background: #f8fbfd;
+}
+
+.comentario-card strong {
+  color: var(--quantum-blue);
+}
+
+.admin-input {
+  color: var(--quantum-graphite);
+  border: 1px solid #b9cedc;
+  border-radius: 3px;
+  background: #fff;
+}
+
+.admin-input:focus {
+  border-color: var(--quantum-cyan);
+  box-shadow: 0 0 0 3px rgba(62, 191, 247, 0.17);
+}
+
+.paginacion a {
+  color: var(--quantum-blue);
+  border-color: #b8cfdd;
+  border-radius: 2px;
+  background: #fff;
+}
+
+.paginacion a:hover,
+.paginacion a.activa {
+  color: var(--quantum-blue);
+  border-color: var(--quantum-turquoise);
+  background: var(--quantum-turquoise);
+}
+
+.encabezado-listado,
+.encabezado-admin {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  color: var(--quantum-graphite);
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 0;
+  border-left-color: var(--quantum-turquoise);
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.encabezado-listado > span,
+.encabezado-admin > span {
+  color: var(--quantum-blue-2);
+}
+
+.mensaje-formulario {
+  color: var(--quantum-blue);
+  border-color: var(--quantum-turquoise);
+  background: var(--quantum-soft);
+}
+
+.galeria-card,
+.galeria-card[type="button"] {
+  color: var(--quantum-graphite);
+  border: 1px solid var(--quantum-line);
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0 8px 22px rgba(1, 61, 109, 0.06);
+}
+
+.galeria-card h3,
+.galeria-card > span {
+  color: var(--quantum-blue);
+}
+
+.admin-galeria .galeria-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-galeria .galeria-card h3 {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+.admin-galeria-acciones {
+  display: grid;
+  gap: 9px;
+  margin-top: auto;
+  padding: 0 14px 14px;
+}
+
+.admin-galeria-acciones > form:not(.editar-galeria-form) .btn,
+.admin-galeria-acciones > .btn {
+  width: 100%;
+}
+
+.editar-galeria-form {
+  display: grid;
+  min-width: 0;
+  gap: 8px;
+  padding: 12px;
+  border: 1px solid var(--quantum-line);
+  border-radius: 5px;
+  background: var(--quantum-soft);
+}
+
+.editar-galeria-form label {
+  color: var(--quantum-blue);
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.editar-galeria-form .admin-input {
+  width: 100%;
+  min-width: 0;
+}
+
+.editar-galeria-botones {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.editar-galeria-botones .btn {
+  min-width: 0;
+}
+
+.modal-galeria {
+  background: rgba(1, 35, 63, 0.94);
+}
+
+footer {
+  padding: 38px 20px;
+  color: #dceef5;
+  border: 0;
+  border-top: 5px solid var(--quantum-turquoise);
+  background: var(--quantum-blue);
+}
+
+.footer-brand {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.footer-brand img {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+}
+
+.footer-brand p {
+  display: grid;
+  margin: 0;
+  text-align: left;
+}
+
+.footer-brand strong {
+  color: #fff;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.15rem;
+}
+
+.footer-brand span,
+footer > p {
+  color: #b9d4e2;
+  font-size: 0.82rem;
+}
+
+footer nav a {
+  color: var(--quantum-turquoise);
+}
+
+/* Administracion */
+.admin-body {
+  color: var(--quantum-graphite);
+  background: #edf4f7;
+}
+
+.admin-header {
+  color: #fff;
+  border: 0;
+  background: var(--quantum-blue);
+  box-shadow: 0 8px 24px rgba(1, 35, 63, 0.18);
+}
+
+.admin-header .top-header {
+  padding: 10px 24px;
+  background: transparent;
+}
+
+.quantum-admin-brand {
+  display: flex;
+  gap: 11px;
+  align-items: center;
+}
+
+.quantum-admin-brand img {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+}
+
+.quantum-admin-brand span {
+  display: grid;
+}
+
+.quantum-admin-brand strong {
+  color: #fff;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.45rem;
+}
+
+.quantum-admin-brand small {
+  color: #aee8ef;
+  font-size: 0.72rem;
+}
+
+.admin-nav {
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scrollbar-width: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.13);
+  background: #012f55;
+}
+
+.admin-nav::-webkit-scrollbar {
+  display: none;
+}
+
+.admin-nav a,
+.admin-logout-form button {
+  flex: 0 0 auto;
+  padding: 12px 10px;
+  color: #d9edf5;
+  font-size: 0.8rem;
+}
+
+.admin-nav a:hover,
+.admin-logout-form button:hover {
+  color: var(--quantum-blue);
+  background: var(--quantum-turquoise);
+}
+
+.admin-menu-toggle {
+  color: var(--quantum-blue);
+  border-color: var(--quantum-turquoise);
+  background: var(--quantum-turquoise);
+}
+
+.admin-body .detalle {
+  color: var(--quantum-graphite);
+}
+
+.admin-body .noticia-detalle,
+.admin-toolbar-newsletter,
+.filtros-admin,
+.acciones-lote,
+.tabla-admin,
+.chart-card,
+.stat-card {
+  color: var(--quantum-graphite);
+  border: 1px solid var(--quantum-line);
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0 8px 24px rgba(1, 61, 109, 0.06);
+}
+
+.filtros-admin,
+.acciones-lote {
+  background: #f7fbfd;
+}
+
+.tabla-admin {
+  overflow: auto;
+}
+
+.tabla-admin table {
+  color: var(--quantum-graphite);
+  background: #fff;
+}
+
+.tabla-admin th {
+  color: #fff;
+  border-color: #1a678f;
+  background: var(--quantum-blue);
+}
+
+.tabla-admin td {
+  color: var(--quantum-graphite);
+  border-color: var(--quantum-line);
+  background: #fff;
+}
+
+.tabla-admin tbody tr:hover td {
+  background: #edfafd;
+}
+
+.tabla-admin a:not(.btn) {
+  color: var(--quantum-blue-2);
+}
+
+.stat-card {
+  border-top: 4px solid var(--quantum-cyan);
+  text-decoration: none;
+}
+
+.stat-card:nth-child(2n) {
+  border-top-color: var(--quantum-turquoise);
+}
+
+.stat-card h2,
+.stat-card h3,
+.chart-card h2 {
+  color: var(--quantum-blue);
+}
+
+.stat-card p {
+  color: var(--quantum-graphite);
+}
+
+.chart-card canvas {
+  filter: none;
+}
+
+.notificacion-card {
+  color: var(--quantum-graphite);
+  border: 1px solid var(--quantum-line);
+  border-left: 5px solid var(--quantum-cyan);
+  background: #fff;
+}
+
+.notificacion-card h3,
+.notificacion-numero {
+  color: var(--quantum-blue);
+}
+
+.estado-newsletter {
+  color: var(--quantum-blue);
+  background: #dff8f5;
+}
+
+.estado-newsletter.borrador,
+.estado-newsletter.programada,
+.estado-newsletter.pendiente {
+  color: #7a4c00;
+  background: #fff2c7;
+}
+
+.estado-newsletter.fallido,
+.estado-newsletter.rechazado {
+  color: #8f2434;
+  background: #ffe1e6;
+}
+
+.admin-login-body {
+  color: var(--quantum-graphite);
+  background: var(--quantum-blue);
+}
+
+.admin-login .noticia-detalle {
+  border-top: 6px solid var(--quantum-turquoise);
+  background: #fff;
+  box-shadow: 0 30px 75px rgba(0, 18, 35, 0.3);
+}
+
+.login-brand {
+  display: grid;
+  justify-items: center;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.login-brand img {
+  width: 112px;
+  height: 112px;
+  object-fit: contain;
+}
+
+.login-brand strong {
+  color: var(--quantum-blue);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.7rem;
+}
+
+.login-brand span {
+  color: var(--quantum-muted);
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+.tox-tinymce {
+  border-color: #b9cedc !important;
+  border-radius: 3px !important;
+}
+
+@media (max-width: 1050px) {
+  .contenedor {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar-portada,
+  .contenedor > aside {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+  }
+
+  .sidebar-portada > h2 {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 900px) {
+  .site-header .top-header {
+    min-height: 90px;
+  }
+
+  .quantum-brand > img {
+    width: 66px;
+    height: 66px;
+    flex-basis: 66px;
+  }
+
+  .site-header .nav-principal {
+    display: none;
+  }
+
+  .admin-nav {
+    border: 1px solid #2d7096;
+    background: #012f55;
+  }
+
+  .panel-operaciones-naval {
+    border-top: 5px solid var(--quantum-turquoise);
+    border-left: 0;
+  }
+}
+
+@media (max-width: 700px) {
+  .site-header .top-header,
+  .breaking-news-inner,
+  .contenedor,
+  .detalle {
+    width: min(100% - 24px, 1320px);
+  }
+
+  .site-header .top-header {
+    gap: 10px;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    min-height: 92px;
+  }
+
+  .quantum-brand {
+    gap: 8px;
+  }
+
+  .quantum-brand > img {
+    width: 56px;
+    height: 56px;
+    flex-basis: 56px;
+  }
+
+  .quantum-brand-copy strong {
+    font-size: 1.48rem;
+  }
+
+  .quantum-brand-copy small {
+    margin-top: 4px;
+    font-size: 0.56rem;
+  }
+
+  .header-right {
+    width: auto;
+  }
+
+  .search-box {
+    display: none;
+  }
+
+  .slider,
+  .slide,
+  .slide img {
+    min-height: 410px;
+    height: 410px;
+  }
+
+  .slide::after {
+    background: linear-gradient(0deg, rgba(1, 35, 63, 0.96) 0%, rgba(1, 35, 63, 0.58) 68%, rgba(1, 35, 63, 0.12) 100%);
+  }
+
+  .hero-content {
+    width: 100%;
+    padding: 24px;
+  }
+
+  .hero-content h2 {
+    font-size: 2.3rem;
+  }
+
+  .hero-content p {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+  }
+
+  .sidebar-portada,
+  .contenedor > aside {
+    display: block;
+  }
+
+  .newsletter-inline {
+    padding: 24px;
+  }
+
+  .breaking-news-inner {
+    border-left-width: 3px;
+  }
+
+  .breaking-source {
+    display: none;
+  }
+
+  .breaking-label {
+    padding: 0 10px;
+  }
+
+  .footer-brand {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .footer-brand p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 430px) {
+  .quantum-brand-copy small {
+    max-width: 170px;
+    line-height: 1.3;
+  }
+
+  .menu-btn {
+    width: 42px;
+    height: 42px;
+  }
+
+  .breaking-label strong {
+    font-size: 0.68rem;
+  }
+
+  .breaking-marquee {
+    padding-left: 10px;
+  }
+
+  .seccion-titulo {
+    font-size: 1.55rem;
+  }
+
+  .card-body {
+    padding: 17px;
+  }
+}
+
+/* =========================================================
+   COMPOSICION EDITORIAL QUANTUM
+   ========================================================= */
+
+.site-header {
+  padding: 0;
+  background: linear-gradient(90deg, #075a8b 0%, #32b9ed 50%, #40d5e7 100%);
+  box-shadow: 0 3px 0 #013d6d, 0 8px 24px rgba(1, 35, 63, 0.18);
+}
+
+.site-header .top-header {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  width: min(1480px, calc(100% - 32px));
+  min-height: 80px;
+  padding: 7px 0;
+}
+
+.quantum-brand-zone {
+  display: flex;
+  grid-column: 1;
+  gap: 8px;
+  align-items: center;
+  justify-self: start;
+  align-self: center;
+}
+
+.marina-emblem,
+.quantum-emblem {
+  display: block;
+  width: 64px;
+  height: 64px;
+  flex: 0 0 64px;
+}
+
+.quantum-emblem {
+  width: 70px;
+  height: 70px;
+  flex-basis: 70px;
+}
+
+.marina-emblem img,
+.quantum-emblem img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.quantum-wordmark {
+  display: grid;
+  grid-column: 2;
+  justify-items: center;
+  align-self: center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.quantum-wordmark strong {
+  color: #e9f8ff;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2.15rem;
+  line-height: 1;
+  text-shadow: 0 2px 0 #38617e, 0 4px 12px rgba(1, 35, 63, 0.28);
+}
+
+.quantum-wordmark small {
+  margin-top: 4px;
+  color: #073b5c;
+  font-size: 0.58rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.site-header .header-right {
+  grid-column: 3;
+  justify-self: end;
+  align-self: center;
+  min-width: 0;
+}
+
+.site-header .menu {
+  position: relative;
+}
+
+.site-header .menu-content {
+  display: none;
+  top: calc(100% + 9px);
+  right: 0;
+  left: auto;
+  width: 220px;
+  max-width: calc(100vw - 24px);
+  max-height: min(70vh, 520px);
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+.site-header .menu-content.abierto {
+  display: block;
+}
+
+.site-header .menu:hover .menu-content:not(.abierto) {
+  display: none;
+}
+
+.site-header .search-box input {
+  width: 205px;
+  height: 30px;
+  color: #073b5c;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.34);
+}
+
+.site-header .search-box input::placeholder {
+  color: #1c6387;
+}
+
+.site-header .menu-btn {
+  width: 30px;
+  height: 30px;
+  color: #c8f5ff;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 50%;
+  background: rgba(1, 61, 109, 0.5);
+  font-size: 0.85rem;
+}
+
+.site-header .nav-principal {
+  justify-content: flex-start;
+  min-height: 25px;
+  padding: 0 24px;
+  border-top: 1px solid rgba(1, 61, 109, 0.32);
+  border-bottom: 2px solid var(--quantum-blue);
+  background: #3bc5ed;
+}
+
+.site-header .nav-principal a {
+  padding: 6px 11px 5px;
+  color: #072c49;
+  border: 0;
+  font-size: 0.62rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.site-header .nav-principal a:hover {
+  color: #fff;
+  background: var(--quantum-blue);
+}
+
+.quantum-home-page {
+  color: #eef9fc;
+  background: #18263b;
+}
+
+.quantum-home-page .breaking-news {
+  background: #132236;
+}
+
+.quantum-home-page .breaking-news-inner {
+  width: min(1180px, calc(100% - 32px));
+  min-height: 42px;
+}
+
+.quantum-home-page .breaking-label {
+  min-height: 42px;
+}
+
+.quantum-home-page .contenedor {
+  width: min(1180px, calc(100% - 32px));
+  margin-top: 28px;
+  padding-top: 0;
+}
+
+.quantum-edicion,
+.quantum-destacadas {
+  grid-column: 1 / -1;
+}
+
+.quantum-edicion {
+  padding: 20px 0 12px;
+  text-align: center;
+}
+
+.quantum-edicion-header {
+  position: relative;
+  margin-bottom: 8px;
+  padding: 0 0 12px;
+  border-bottom: 1px solid rgba(62, 191, 247, 0.2);
+}
+
+.quantum-edicion-header::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  width: 150px;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, var(--quantum-cyan), var(--quantum-turquoise), transparent);
+  transform: translateX(-50%);
+}
+
+.quantum-edicion-header span {
+  color: var(--quantum-cyan);
+  font-size: 0.65rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.quantum-edicion-header h1 {
+  margin: 3px 0 0;
+  color: #fff;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 1.35rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.quantum-feature {
+  position: relative;
+  width: min(680px, 78%);
+  aspect-ratio: 2.1 / 1;
+  margin: 0 auto;
+  overflow: hidden;
+  border: 1px solid rgba(62, 191, 247, 0.25);
+  border-radius: 7px;
+  background: #435064;
+  box-shadow: 0 18px 48px rgba(0, 11, 24, 0.28);
+}
+
+.quantum-feature > img:first-child {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.quantum-feature-video {
+  display: flex;
+  align-items: stretch;
+  background: #050b12;
+}
+
+.quantum-feature-video video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background: #050b12;
+}
+
+.quantum-video-caption {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  max-width: calc(100% - 28px);
+  padding: 8px 12px;
+  color: #fff;
+  border-left: 3px solid var(--quantum-turquoise);
+  background: rgba(2, 12, 24, 0.82);
+  text-align: left;
+  pointer-events: none;
+}
+
+.quantum-video-caption span {
+  display: block;
+  color: var(--quantum-turquoise);
+  font-size: 0.58rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.quantum-video-caption h2 {
+  margin: 2px 0 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+.quantum-feature-shade {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(30, 41, 59, 0.86) 0%, rgba(30, 41, 59, 0.58) 54%, rgba(64, 224, 208, 0.26) 100%);
+}
+
+.quantum-feature-mark {
+  position: absolute;
+  top: 50%;
+  right: 9%;
+  width: 31%;
+  height: 70%;
+  object-fit: contain;
+  opacity: 0.66;
+  transform: translateY(-50%);
+}
+
+.quantum-feature-caption {
+  position: absolute;
+  top: 50%;
+  left: 7%;
+  width: 52%;
+  text-align: left;
+  transform: translateY(-50%);
+}
+
+.quantum-feature-caption span {
+  color: var(--quantum-turquoise);
+  font-size: 0.65rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.quantum-feature-caption h2 {
+  margin: 7px 0 0;
+  color: #fff;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2.15rem;
+  line-height: 1.08;
+}
+
+.quantum-feature-action {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  min-width: 128px;
+  padding: 8px 18px;
+  color: #062c48;
+  border-radius: 18px 18px 0 0;
+  background: var(--quantum-turquoise);
+  font-size: 0.68rem;
+  font-weight: 900;
+  text-decoration: none;
+  text-transform: uppercase;
+  transform: translateX(-50%);
+}
+
+.quantum-feature-action:hover {
+  color: #fff;
+  background: var(--quantum-blue-2);
+}
+
+.quantum-destacadas {
+  margin: 18px 0 22px;
+}
+
+.quantum-destacadas > header {
+  position: relative;
+  margin-bottom: 20px;
+  padding: 0;
+  text-align: center;
+  border: 0;
+  background: transparent;
+}
+
+.quantum-destacadas > header::before,
+.quantum-destacadas > header::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 38%;
+  height: 1px;
+  background: rgba(62, 191, 247, 0.2);
+}
+
+.quantum-destacadas > header::before {
+  left: 0;
+}
+
+.quantum-destacadas > header::after {
+  right: 0;
+}
+
+.quantum-destacadas h2 {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  padding: 0 24px 8px;
+  color: var(--quantum-cyan);
+  border-bottom: 3px solid var(--quantum-turquoise);
+  background: #18263b;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.quantum-destacadas-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.quantum-destacada-card {
+  display: grid;
+  grid-template-rows: auto minmax(2.5rem, auto) auto auto;
+  gap: 10px;
+  padding: 22px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 6px;
+  background: #435064;
+  box-shadow: 0 14px 30px rgba(0, 11, 24, 0.18);
+}
+
+.quantum-destacada-card > span {
+  color: var(--quantum-turquoise);
+  font-size: 0.64rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.quantum-destacada-card h3 {
+  margin: 0;
+  color: #fff;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.quantum-destacada-card img {
+  width: 100%;
+  aspect-ratio: 16 / 8.5;
+  object-fit: cover;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.quantum-destacada-card a {
+  justify-self: center;
+  padding: 8px 18px;
+  color: #062c48;
+  border-radius: 16px;
+  background: var(--quantum-turquoise);
+  font-size: 0.65rem;
+  font-weight: 900;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.quantum-home-page .seccion-titulo {
+  color: #fff;
+  border-color: rgba(62, 191, 247, 0.22);
+}
+
+.quantum-home-page .sidebar-portada,
+.quantum-home-page .contenedor > aside {
+  color: #eef9fc;
+  border-color: rgba(62, 191, 247, 0.22);
+  background: #27364a;
+  box-shadow: 0 14px 30px rgba(0, 11, 24, 0.18);
+}
+
+.quantum-home-page .sidebar-portada h2,
+.quantum-home-page .contenedor > aside h2,
+.quantum-home-page .reciente h3,
+.quantum-home-page .mas-leidas a {
+  color: #fff;
+}
+
+.quantum-home-page .reciente p,
+.quantum-home-page .sidebar-portada small {
+  color: #9fb9ca;
+}
+
+.quantum-home-page .categorias a {
+  color: #dff7fb;
+  border-color: rgba(62, 191, 247, 0.2);
+  background: #35445a;
+}
+
+.quantum-home-page .card {
+  color: #eef9fc;
+  border-color: rgba(255, 255, 255, 0.08);
+  background: #35445a;
+}
+
+.quantum-home-page .card h2,
+.quantum-home-page .card h3 {
+  color: #fff;
+}
+
+.quantum-home-page .card p {
+  color: #b9cfda;
+}
+
+.quantum-home-page .visor-leyenda-regiones {
+  background: #27364a;
+}
+
+.quantum-home-page .visor-leyenda-regiones span {
+  color: #eaf8fb;
+}
+
+.quantum-home-page .newsletter-inline {
+  background: #27364a;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.contenido-central,
+.naval-dashboard,
+.visor-maritimo-layout,
+.mapa-operaciones-wrap,
+#mapaMaritimo {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.naval-dashboard,
+.visor-maritimo-layout,
+.mapa-operaciones-wrap {
+  width: 100%;
+}
+
+#mapaMaritimo {
+  width: 100% !important;
+}
+
+#mapaMaritimo .leaflet-top.leaflet-right,
+#mapaMaritimo .leaflet-bottom.leaflet-right {
+  right: 8px;
+  max-width: calc(100% - 16px);
+}
+
+.panel-capas-naval {
+  width: 190px;
+  min-width: 0 !important;
+  max-width: calc(100vw - 28px);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.panel-capas-naval label {
+  min-width: 0;
+  font-size: 0.72rem;
+  white-space: normal;
+}
+
+.panel-capas-naval label span {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.busqueda-mapa-naval {
+  max-width: calc(100vw - 28px);
+  box-sizing: border-box;
+}
+
+.busqueda-mapa-naval form {
+  max-width: 100%;
+}
+
+@media (max-width: 900px) {
+  .site-header .nav-principal {
+    display: flex;
+  }
+
+  .quantum-feature {
+    width: min(760px, 94%);
+  }
+
+  .quantum-feature-caption h2 {
+    font-size: 1.85rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .panel-capas-naval {
+    width: 174px;
+    padding: 10px !important;
+  }
+
+  .busqueda-mapa-naval {
+    margin-left: 0 !important;
+    padding: 8px !important;
+  }
+
+  .busqueda-mapa-naval input {
+    width: 170px !important;
+  }
+}
+
+@media (max-width: 700px) {
+  .site-header .top-header {
+    display: grid;
+    grid-template-columns: 100px 1fr 38px;
+    min-height: 68px;
+  }
+
+  .quantum-brand-zone {
+    gap: 4px;
+  }
+
+  .marina-emblem,
+  .quantum-emblem {
+    width: 46px;
+    height: 46px;
+    flex-basis: 46px;
+  }
+
+  .quantum-wordmark {
+    grid-column: 2;
+  }
+
+  .quantum-wordmark strong {
+    font-size: 1.65rem;
+  }
+
+  .quantum-wordmark small {
+    font-size: 0.5rem;
+  }
+
+  .site-header .header-right {
+    grid-column: 3;
+  }
+
+  .site-header .menu-btn {
+    display: block;
+  }
+
+  .site-header .nav-principal {
+    gap: 0;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .site-header .nav-principal::-webkit-scrollbar {
+    display: none;
+  }
+
+  .site-header .nav-principal a {
+    flex: 0 0 auto;
+  }
+
+  .quantum-home-page .breaking-news-inner,
+  .quantum-home-page .contenedor {
+    width: min(100% - 20px, 1180px);
+  }
+
+  .quantum-edicion {
+    padding-top: 14px;
+  }
+
+  .quantum-feature {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+  }
+
+  .quantum-feature-video {
+    aspect-ratio: 16 / 9;
+  }
+
+  .quantum-video-caption {
+    top: 10px;
+    left: 10px;
+    max-width: calc(100% - 20px);
+    padding: 6px 9px;
+  }
+
+  .quantum-video-caption h2 {
+    font-size: 0.85rem;
+  }
+
+  .quantum-feature-mark {
+    right: 2%;
+    width: 39%;
+    opacity: 0.4;
+  }
+
+  .quantum-feature-caption {
+    left: 7%;
+    width: 72%;
+  }
+
+  .quantum-feature-caption h2 {
+    font-size: 1.7rem;
+  }
+
+  .quantum-destacadas-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .quantum-destacadas > header::before,
+  .quantum-destacadas > header::after {
+    width: 25%;
+  }
+}
+
+@media (max-width: 430px) {
+  .site-header .top-header {
+    grid-template-columns: 82px 1fr 34px;
+  }
+
+  .marina-emblem,
+  .quantum-emblem {
+    width: 39px;
+    height: 39px;
+    flex-basis: 39px;
+  }
+
+  .quantum-wordmark strong {
+    font-size: 1.45rem;
+  }
+
+  .quantum-wordmark small {
+    font-size: 0.43rem;
+  }
+
+  .quantum-feature-caption h2 {
+    font-size: 1.48rem;
+  }
+
+  .quantum-destacada-card {
+    padding: 16px;
+  }
+
+  .panel-capas-naval {
+    width: 145px;
+    padding: 8px !important;
+  }
+
+  .panel-capas-naval label {
+    gap: 5px;
+    font-size: 0.62rem;
+  }
+
+  .busqueda-mapa-naval {
+    max-width: 160px;
+  }
+
+  .busqueda-mapa-naval input {
+    width: 142px !important;
+  }
+}
+
+/* Ajustes finales de amplitud y suavidad visual */
+.quantum-home-page {
+  background: #1b293b;
+}
+
+.quantum-home-page .centro-operaciones {
+  grid-column: 1 / -1;
+  min-width: 0;
+}
+
+.quantum-home-page .centro-operaciones > .seccion-titulo {
+  margin-top: 6px;
+}
+
+.quantum-home-page .naval-dashboard {
+  width: 100%;
+  border-color: rgba(64, 224, 208, 0.52);
+  border-top-width: 3px;
+  border-radius: 8px;
+  box-shadow: 0 16px 38px rgba(3, 16, 29, 0.24);
+}
+
+.quantum-home-page .visor-maritimo-layout {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.quantum-home-page .panel-operaciones-naval {
+  grid-template-columns: minmax(200px, 0.9fr) repeat(4, minmax(135px, 1fr));
+  color: #eef8fb;
+  border-top: 1px solid rgba(151, 196, 214, 0.2);
+  background: #213750;
+}
+
+.quantum-home-page .visor-leyenda-regiones {
+  border-top-color: rgba(151, 196, 214, 0.2);
+  background: #263b51;
+}
+
+.quantum-home-page .quantum-feature,
+.quantum-home-page .quantum-destacada-card,
+.quantum-home-page .card,
+.quantum-home-page .sidebar-portada,
+.quantum-home-page .contenedor > aside,
+.quantum-home-page .newsletter-inline {
+  border: 1px solid rgba(151, 196, 214, 0.18);
+  border-radius: 8px;
+  box-shadow: 0 12px 28px rgba(3, 16, 29, 0.18);
+}
+
+.quantum-home-page .quantum-feature {
+  background: #35475c;
+}
+
+.quantum-home-page .quantum-destacada-card {
+  background: #33465c;
+  transition: border-color 0.24s ease, box-shadow 0.24s ease, transform 0.24s ease;
+}
+
+.quantum-home-page .quantum-destacada-card:hover {
+  border-color: rgba(64, 224, 208, 0.42);
+  box-shadow: 0 16px 34px rgba(3, 16, 29, 0.24);
+  transform: translateY(-3px);
+}
+
+.quantum-home-page .quantum-destacada-card img,
+.quantum-home-page .card img {
+  border-color: rgba(221, 239, 245, 0.16);
+  border-radius: 6px;
+}
+
+.quantum-home-page .card {
+  background: #304258;
+  transition: border-color 0.24s ease, box-shadow 0.24s ease, transform 0.24s ease;
+}
+
+.quantum-home-page .card:hover {
+  border-color: rgba(62, 191, 247, 0.38);
+  box-shadow: 0 16px 32px rgba(3, 16, 29, 0.22);
+  transform: translateY(-3px);
+}
+
+.quantum-home-page .card p,
+.quantum-home-page .reciente p,
+.quantum-home-page .sidebar-portada small {
+  color: #bfd1da;
+}
+
+.quantum-home-page .sidebar-portada,
+.quantum-home-page .contenedor > aside,
+.quantum-home-page .newsletter-inline {
+  background: #293b50;
+}
+
+.quantum-home-page .categorias a {
+  border-radius: 6px;
+  background: #34495f;
+  transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+}
+
+.quantum-home-page .categorias a:hover {
+  color: #082f49;
+  border-color: #40e0d0;
+  background: #7ee8df;
+}
+
+.quantum-home-page .btn,
+.quantum-home-page .quantum-destacada-card a,
+.quantum-home-page .quantum-feature-action {
+  transition: color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.quantum-home-page .btn:hover,
+.quantum-home-page .quantum-destacada-card a:hover {
+  box-shadow: 0 7px 18px rgba(64, 224, 208, 0.2);
+  transform: translateY(-1px);
+}
+
+.quantum-home-page .quantum-feature-action:hover {
+  box-shadow: 0 7px 18px rgba(64, 224, 208, 0.2);
+  transform: translateX(-50%) translateY(-1px);
+}
+
+@media (max-width: 1100px) {
+  .quantum-home-page .panel-operaciones-naval {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 720px) {
+  .quantum-home-page .panel-operaciones-naval {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .quantum-home-page .quantum-destacada-card,
+  .quantum-home-page .card {
+    transform: none;
+  }
+}
+
+/* NavegaciÃ³n compacta y videoteca */
+.breaking-dot {
+  background: #ef4444;
+  box-shadow: 0 0 0 4px rgba(239, 68, 68, 0.18), 0 0 15px rgba(239, 68, 68, 0.78);
+}
+
+.site-header,
+.site-header .top-header,
+.site-header .header-right,
+.site-header .menu {
+  overflow: visible;
+}
+
+.site-header .nav-principal {
+  justify-content: center;
+  gap: 20px;
+}
+
+.site-header .nav-principal a {
+  min-width: 76px;
+  text-align: center;
+}
+
+.site-header .nav-principal a[aria-current="page"] {
+  color: #fff;
+  border-bottom-color: #40e0d0;
+  background: rgba(1, 61, 109, 0.12);
+}
+
+.site-header .menu-btn {
+  width: 36px;
+  height: 36px;
+  display: grid;
+  place-items: center;
+  padding: 0;
+  border-color: rgba(255, 255, 255, 0.34);
+  background: rgba(1, 61, 109, 0.68);
+  box-shadow: 0 6px 16px rgba(1, 35, 63, 0.18);
+  transition: color 0.2s ease, background 0.2s ease, transform 0.2s ease;
+}
+
+.site-header .menu-btn:hover,
+.site-header .menu-btn[aria-expanded="true"] {
+  color: #073b5c;
+  background: #7ee8df;
+  transform: translateY(-1px);
+}
+
+.menu-icon,
+.menu-icon::before,
+.menu-icon::after {
+  display: block;
+  width: 15px;
+  height: 2px;
+  border-radius: 2px;
+  background: currentColor;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.menu-icon {
+  position: relative;
+}
+
+.menu-icon::before,
+.menu-icon::after {
+  content: "";
+  position: absolute;
+  left: 0;
+}
+
+.menu-icon::before {
+  top: -5px;
+}
+
+.menu-icon::after {
+  top: 5px;
+}
+
+.menu-btn[aria-expanded="true"] .menu-icon {
+  background: transparent;
+}
+
+.menu-btn[aria-expanded="true"] .menu-icon::before {
+  top: 0;
+  transform: rotate(45deg);
+}
+
+.menu-btn[aria-expanded="true"] .menu-icon::after {
+  top: 0;
+  transform: rotate(-45deg);
+}
+
+.site-header .menu-content {
+  z-index: 5000;
+  top: calc(100% + 10px);
+  right: 0;
+  width: 360px;
+  min-width: 0;
+  max-width: calc(100vw - 20px);
+  max-height: calc(100dvh - 90px);
+  padding: 8px;
+  overflow-y: auto;
+  border: 1px solid rgba(64, 224, 208, 0.38);
+  border-radius: 8px;
+  background: rgba(20, 49, 70, 0.98);
+  box-shadow: 0 18px 40px rgba(1, 23, 41, 0.34);
+  backdrop-filter: blur(12px);
+  animation: quantumMenuEntrada 0.18s ease-out;
+}
+
+.site-header .menu-content::before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  right: 13px;
+  width: 10px;
+  height: 10px;
+  border-top: 1px solid rgba(64, 224, 208, 0.38);
+  border-left: 1px solid rgba(64, 224, 208, 0.38);
+  background: #143146;
+  transform: rotate(45deg);
+}
+
+.site-header .menu-content a {
+  display: flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 14px;
+  color: #eaf8fb;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.site-header .menu-content.abierto {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 3px;
+}
+
+.site-header .menu-content a + a {
+  margin-top: 0;
+}
+
+.site-header .menu-content a:hover,
+.site-header .menu-content a[aria-current="page"] {
+  color: #073b5c;
+  background: #7ee8df;
+}
+
+@keyframes quantumMenuEntrada {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.quantum-videos-page,
+.quantum-direcciones-page {
+  color: #eef9fc;
+  background: #1b293b;
+}
+
+.site-header .quantum-emblem {
+  display: grid;
+  place-items: center;
+  width: 104px;
+  height: 64px;
+  flex-basis: 104px;
+}
+
+.site-header .marina-emblem {
+  display: grid;
+  place-items: center;
+}
+
+.site-header .quantum-emblem img {
+  display: block;
+  position: static;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  object-fit: contain;
+  mix-blend-mode: normal;
+  transform: none;
+}
+
+.autor-editor {
+  margin: 8px 0 0;
+  padding: 18px;
+  border: 1px solid rgba(62, 191, 247, 0.24);
+  border-radius: 8px;
+  background: rgba(1, 61, 109, 0.08);
+}
+
+.autor-editor legend {
+  padding: 0 8px;
+  color: #dff7fb;
+  font-weight: 800;
+}
+
+.autor-editor legend small {
+  color: #93aebe;
+  font-size: 0.72rem;
+  font-weight: 600;
+}
+
+.autor-editor-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.autor-imagen-actual {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-top: 16px;
+  color: #bfd1da;
+}
+
+.autor-imagen-actual img {
+  width: 58px;
+  height: 58px;
+  object-fit: cover;
+  border: 2px solid #7ee8df;
+  border-radius: 50%;
+}
+
+.autor-imagen-actual label {
+  display: flex;
+  grid-auto-flow: column;
+  gap: 7px;
+  align-items: center;
+  margin-left: auto;
+}
+
+.firma-noticia {
+  display: flex;
+  gap: 13px;
+  align-items: center;
+  margin: 16px 0 22px;
+  color: #bfd1da;
+}
+
+.firma-noticia > img {
+  width: 58px;
+  height: 58px;
+  flex: 0 0 58px;
+  object-fit: cover;
+  border: 2px solid #40e0d0;
+  border-radius: 50%;
+  box-shadow: 0 7px 18px rgba(1, 61, 109, 0.2);
+}
+
+.firma-noticia div {
+  display: grid;
+  gap: 2px;
+}
+
+.firma-noticia span {
+  color: #3ebff7;
+  font-size: 0.68rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.firma-noticia strong {
+  color: inherit;
+  font-size: 0.96rem;
+}
+
+.firma-noticia p {
+  margin: 2px 0 0;
+  color: #7890a0;
+  font-size: 0.8rem;
+}
+
+.firma-preview {
+  color: #17364c;
+}
+
+.videos-page {
+  min-height: 62vh;
+  padding: 36px 0 64px;
+}
+
+.videos-encabezado {
+  margin-bottom: 26px;
+}
+
+.videos-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.video-card {
+  overflow: hidden;
+  border: 1px solid rgba(151, 196, 214, 0.2);
+  border-radius: 8px;
+  background: #304258;
+  box-shadow: 0 14px 30px rgba(3, 16, 29, 0.2);
+  transition: border-color 0.22s ease, box-shadow 0.22s ease, transform 0.22s ease;
+}
+
+.video-card:hover {
+  border-color: rgba(64, 224, 208, 0.42);
+  box-shadow: 0 18px 36px rgba(3, 16, 29, 0.26);
+  transform: translateY(-3px);
+}
+
+.video-frame {
+  aspect-ratio: 16 / 9;
+  background: #071525;
+}
+
+.video-frame video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.video-card-body {
+  padding: 18px 20px 20px;
+}
+
+.video-card-body span {
+  color: #7ee8df;
+  font-size: 0.68rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.video-card-body h2 {
+  margin: 7px 0 0;
+  color: #fff;
+  font-size: 1.12rem;
+  line-height: 1.35;
+}
+
+.video-card-body p {
+  margin: 9px 0 0;
+  color: #bfd1da;
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+
+.direcciones-page,
+.direccion-detalle-page {
+  min-height: 62vh;
+  padding: 36px 0 64px;
+}
+
+.direcciones-encabezado {
+  margin-bottom: 26px;
+}
+
+.quantum-direcciones-page .encabezado-listado h1 {
+  color: #fff;
+}
+
+.quantum-direcciones-page .encabezado-listado > span {
+  color: #7ee8df;
+}
+
+.quantum-direcciones-page .encabezado-listado p {
+  color: #bfd1da;
+}
+
+.direcciones-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+}
+
+.direccion-card {
+  display: grid;
+  grid-template-rows: 250px auto;
+  min-width: 0;
+  overflow: hidden;
+  color: #eef9fc;
+  border: 1px solid rgba(151, 196, 214, 0.22);
+  border-radius: 8px;
+  background: #304258;
+  box-shadow: 0 14px 30px rgba(3, 16, 29, 0.2);
+  transition: border-color 0.22s ease, box-shadow 0.22s ease, transform 0.22s ease;
+}
+
+.direccion-card:hover,
+.direccion-card:focus-visible {
+  border-color: rgba(64, 224, 208, 0.62);
+  box-shadow: 0 18px 36px rgba(3, 16, 29, 0.28);
+  transform: translateY(-3px);
+}
+
+.direccion-logo {
+  display: grid;
+  place-items: center;
+  min-width: 0;
+  min-height: 0;
+  overflow: hidden;
+  padding: 22px;
+  background: #f6fafc;
+}
+
+.direccion-logo img {
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.direccion-card-contenido {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  gap: 8px;
+  padding: 18px 20px 20px;
+}
+
+.direccion-card-contenido small {
+  color: #7ee8df;
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.direccion-card-contenido strong {
+  color: #fff;
+  font-size: 1.03rem;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+}
+
+.direccion-card-contenido > span {
+  margin-top: auto;
+  color: #9eddf4;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.direccion-migas {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 18px;
+  color: #9eddf4;
+  font-size: 0.86rem;
+}
+
+.direccion-migas a {
+  color: #7ee8df;
+  font-weight: 700;
+}
+
+.direccion-perfil {
+  display: grid;
+  grid-template-columns: minmax(220px, 320px) minmax(0, 1fr);
+  align-items: center;
+  gap: 36px;
+  padding: 32px;
+  border: 1px solid rgba(151, 196, 214, 0.22);
+  border-radius: 8px;
+  background: #304258;
+  box-shadow: 0 16px 34px rgba(3, 16, 29, 0.22);
+}
+
+.direccion-perfil > img {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: contain;
+  padding: 14px;
+  border-radius: 8px;
+  background: #f6fafc;
+}
+
+.direccion-perfil > div > span,
+.direccion-publicaciones > header span {
+  color: #7ee8df;
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.direccion-perfil h1 {
+  max-width: 900px;
+  margin: 9px 0 12px;
+  color: #fff;
+  font-size: clamp(1.65rem, 3vw, 2.7rem);
+  line-height: 1.12;
+  letter-spacing: 0;
+}
+
+.direccion-perfil p {
+  max-width: 760px;
+  margin: 0;
+  color: #bfd1da;
+  line-height: 1.65;
+}
+
+.direccion-publicaciones {
+  margin-top: 38px;
+}
+
+.direccion-publicaciones > header {
+  margin-bottom: 18px;
+}
+
+.direccion-publicaciones > header h2 {
+  margin: 7px 0 0;
+  color: #fff;
+  font-size: 1.45rem;
+}
+
+.direccion-publicaciones .card h3 {
+  margin: 8px 0;
+  color: #fff;
+  font-size: 1.08rem;
+  line-height: 1.35;
+}
+
+.admin-videos-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  margin-top: 24px;
+}
+
+.admin-video-card {
+  overflow: hidden;
+  border: 1px solid var(--quantum-line);
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0 10px 26px rgba(1, 61, 109, 0.08);
+}
+
+.admin-video-card-body {
+  padding: 16px;
+}
+
+.admin-video-card-body h2 {
+  margin: 8px 0;
+  color: var(--quantum-blue);
+  font-size: 1.05rem;
+  overflow-wrap: anywhere;
+}
+
+.admin-video-card-body p {
+  margin: 0 0 14px;
+  color: var(--quantum-graphite);
+  line-height: 1.5;
+}
+
+.estado-video {
+  display: inline-flex;
+  padding: 4px 8px;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.estado-video.publicado {
+  background: #26734d;
+}
+
+.estado-video.oculto {
+  background: #687784;
+}
+
+.admin-video-acciones {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.admin-video-acciones .btn {
+  width: 100%;
+  min-width: 0;
+}
+
+.videos-vacio {
+  padding: 64px 24px;
+  border: 1px solid rgba(151, 196, 214, 0.18);
+  border-radius: 8px;
+  color: #bfd1da;
+  background: #293b50;
+}
+
+.videos-vacio h2 {
+  color: #fff;
+}
+
+.videos-vacio-icono {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 54px;
+  margin-bottom: 12px;
+  color: #073b5c;
+  border-radius: 50%;
+  background: #7ee8df;
+  box-shadow: 0 10px 24px rgba(64, 224, 208, 0.18);
+}
+
+@media (max-width: 760px) {
+  .direcciones-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .direccion-card {
+    grid-template-rows: 220px auto;
+  }
+
+  .direccion-perfil {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 22px;
+  }
+
+  .direccion-perfil > img {
+    width: min(280px, 100%);
+    justify-self: center;
+  }
+
+  .admin-videos-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .admin-video-acciones {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 761px) and (max-width: 1100px) {
+  .direcciones-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.quantum-home-page .breaking-news {
+  width: min(1180px, calc(100% - 32px));
+  margin: 16px auto 0;
+  background: transparent;
+}
+
+.quantum-home-page .breaking-news-inner {
+  width: 100%;
+  min-height: 44px;
+  overflow: hidden;
+  border: 1px solid rgba(62, 191, 247, 0.2);
+  border-left: 4px solid #40e0d0;
+  border-radius: 8px;
+  background: #132236;
+}
+
+.quantum-home-page .breaking-label {
+  height: 44px;
+  min-height: 44px;
+}
+
+@media (max-width: 700px) {
+  .site-header .top-header {
+    grid-template-columns: 112px 1fr 38px;
+  }
+
+  .site-header .nav-principal {
+    justify-content: flex-start;
+    gap: 4px;
+  }
+
+  .site-header .nav-principal a {
+    min-width: 0;
+  }
+
+  .videos-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .site-header .quantum-emblem {
+    width: 58px;
+    height: 44px;
+    flex-basis: 58px;
+  }
+
+  .site-header .menu-content {
+    width: min(340px, calc(100vw - 24px));
+  }
+
+  .autor-editor-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+@media (max-width: 430px) {
+  .site-header .top-header {
+    grid-template-columns: 96px 1fr 34px;
+  }
+
+  .site-header .quantum-emblem {
+    width: 52px;
+    flex-basis: 52px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .site-header .top-header {
+    width: min(1740px, calc(100% - 64px));
+    min-height: 96px;
+  }
+
+  .site-header .marina-emblem {
+    width: 82px;
+    height: 82px;
+    flex-basis: 82px;
+  }
+
+  .site-header .quantum-emblem {
+    width: 132px;
+    height: 82px;
+    flex-basis: 132px;
+  }
+
+  .quantum-wordmark strong {
+    font-size: 2.5rem;
+  }
+
+  .quantum-wordmark small {
+    font-size: 0.68rem;
+  }
+
+  .quantum-home-page .breaking-news,
+  .quantum-home-page .contenedor,
+  .detalle {
+    width: min(1540px, calc(100% - 80px));
+    max-width: 1540px;
+  }
+
+  .quantum-home-page .breaking-news-inner {
+    width: 100%;
+  }
+
+  .quantum-home-page .contenedor {
+    grid-template-columns: minmax(0, 1fr) 350px;
+    gap: 32px;
+  }
+
+  .quantum-home-page .quantum-feature {
+    width: min(860px, 72%);
+  }
+
+  .quantum-home-page .quantum-destacadas-grid {
+    gap: 28px;
+  }
+
+  .quantum-home-page #mapaMaritimo {
+    height: 640px;
+  }
+}
+
+@media (min-width: 2200px) {
+  .site-header .top-header,
+  .quantum-home-page .breaking-news,
+  .quantum-home-page .contenedor,
+  .detalle {
+    width: min(1760px, calc(100% - 112px));
+    max-width: 1760px;
+  }
+
+  .quantum-home-page .quantum-feature {
+    width: 980px;
+  }
+}
+
+/* Identidad Quantum 2026 */
+.site-header .quantum-emblem {
+  width: clamp(66px, 5.2vw, 78px);
+  height: clamp(62px, 5vw, 72px);
+  flex-basis: clamp(66px, 5.2vw, 78px);
+}
+
+.site-header .quantum-emblem img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.site-header .quantum-wordmark {
+  width: clamp(280px, 34vw, 460px);
+  height: clamp(58px, 6vw, 80px);
+}
+
+.site-header .quantum-wordmark img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+@media (min-width: 1440px) {
+  .site-header .top-header {
+    width: calc(100% - 48px);
+    max-width: none;
+    min-height: 80px;
+    padding: 7px 0;
+  }
+
+  .site-header .marina-emblem {
+    width: 64px;
+    height: 64px;
+    flex-basis: 64px;
+  }
+
+  .site-header .quantum-emblem {
+    width: 78px;
+    height: 72px;
+    flex-basis: 78px;
+  }
+
+  .site-header .quantum-wordmark {
+    width: 460px;
+    height: 80px;
+  }
+
+  .quantum-home-page .breaking-news,
+  .quantum-home-page .contenedor,
+  .detalle {
+    width: min(1180px, calc(100% - 48px));
+    max-width: 1180px;
+  }
+
+  .quantum-home-page .contenedor {
+    grid-template-columns: minmax(0, 1fr) 310px;
+    gap: 28px;
+  }
+
+  .quantum-home-page .quantum-feature {
+    width: min(680px, 78%);
+  }
+}
+
+@media (max-width: 700px) {
+  .site-header .top-header {
+    grid-template-columns: 108px minmax(0, 1fr) 38px;
+  }
+
+  .site-header .marina-emblem {
+    width: 44px;
+    height: 44px;
+    flex-basis: 44px;
+  }
+
+  .site-header .quantum-emblem {
+    width: 58px;
+    height: 54px;
+    flex-basis: 58px;
+  }
+
+  .site-header .quantum-wordmark {
+    width: min(100%, 300px);
+    height: 58px;
+  }
+}
+
+@media (max-width: 430px) {
+  .site-header .top-header {
+    grid-template-columns: 92px minmax(0, 1fr) 34px;
+    width: calc(100% - 16px);
+  }
+
+  .site-header .marina-emblem {
+    width: 38px;
+    height: 38px;
+    flex-basis: 38px;
+  }
+
+  .site-header .quantum-emblem {
+    width: 50px;
+    height: 48px;
+    flex-basis: 50px;
+  }
+
+  .site-header .quantum-wordmark {
+    height: 50px;
+  }
+}
+
+/* Ajuste fino de logos Quantum */
+.site-header .top-header {
+  grid-template-columns: minmax(156px, 1fr) auto minmax(230px, 1fr);
+}
+
+.site-header .quantum-brand-zone {
+  min-width: 0;
+}
+
+.site-header .quantum-emblem {
+  width: clamp(76px, 5.4vw, 92px);
+  height: clamp(50px, 4vw, 62px);
+  flex-basis: clamp(76px, 5.4vw, 92px);
+  overflow: visible;
+}
+
+.site-header .quantum-emblem img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.site-header .header-right {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+@media (min-width: 1440px) {
+  .site-header .top-header {
+    grid-template-columns: minmax(190px, 1fr) auto minmax(300px, 1fr);
+    width: calc(100% - 64px);
+  }
+
+  .site-header .quantum-emblem {
+    width: 96px;
+    height: 64px;
+    flex-basis: 96px;
+  }
+}
+
+@media (max-width: 700px) {
+  .site-header .top-header {
+    grid-template-columns: 112px minmax(0, 1fr) 38px;
+  }
+
+  .site-header .quantum-emblem {
+    width: 60px;
+    height: 40px;
+    flex-basis: 60px;
+  }
+}
+
+@media (max-width: 430px) {
+  .site-header .top-header {
+    grid-template-columns: 98px minmax(0, 1fr) 34px;
+  }
+
+  .site-header .quantum-emblem {
+    width: 56px;
+    height: 38px;
+    flex-basis: 56px;
+  }
+}
