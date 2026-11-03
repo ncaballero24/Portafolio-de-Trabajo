@@ -1,0 +1,1136 @@
+/* Componentes de progresión y personalización */
+.avatar-composed {
+  position: relative;
+  overflow: visible;
+}
+.avatar-composed img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: inherit;
+}
+.avatar-composed .avatar-accessory {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.account .avatar {
+  width: 100%;
+  height: 100%;
+  font-size: 24px;
+}
+.large-avatar {
+  width: 115px;
+  height: 115px;
+  font-size: 70px;
+  border-radius: 20px;
+  background: #fff9eb;
+}
+.profile-avatar .large-avatar {
+  width: 80px;
+  height: 80px;
+  font-size: 50px;
+}
+.form-actions {
+  flex-wrap: wrap;
+}
+.journey-banner,
+.wardrobe-banner {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 27px;
+  border: 1px solid #eadbc0;
+  background: linear-gradient(115deg, #fff4d7, #f3e5d5);
+  border-radius: 16px;
+  margin-bottom: 24px;
+}
+.journey-banner h2,
+.wardrobe-banner h2 {
+  color: var(--dark);
+  margin: 0 0 8px;
+  font-size: 23px;
+}
+.journey-banner p,
+.wardrobe-banner p {
+  margin: 0;
+  color: #92766c;
+  font-size: 12px;
+}
+.journey-ring {
+  margin-left: auto;
+  flex-shrink: 0;
+  width: 110px;
+  height: 110px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: conic-gradient(var(--wine) var(--progress), #e8d9c4 0);
+  position: relative;
+}
+.journey-ring::before {
+  content: "";
+  position: absolute;
+  inset: 7px;
+  border-radius: 50%;
+  background: #faf0dd;
+}
+.journey-ring b {
+  z-index: 1;
+  color: var(--wine);
+  font-size: 27px;
+  text-align: center;
+}
+.journey-ring small {
+  display: block;
+  font-size: 9px;
+  color: #977d6c;
+  font-weight: 400;
+}
+.mission-section-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin: 22px 0 14px;
+}
+.mission-section-heading h2 {
+  margin: 0;
+  font-size: 17px;
+}
+.mission-section-heading span,
+.mission-section-heading a {
+  font-size: 10px;
+  color: #99818b;
+}
+.mission-progress-card {
+  transition: background 0.2s;
+}
+.mission-completed {
+  background: #f6fbf7;
+  border-color: #dbe9dc;
+}
+.mission-progress-card .mission-copy p {
+  font-size: 11px;
+}
+.mission-meter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 12px;
+}
+.mission-meter .progress {
+  flex: 1;
+  max-width: 230px;
+}
+.mission-meter small {
+  font-size: 10px;
+  white-space: nowrap;
+}
+.mission-completed .progress i {
+  background: #52946a;
+}
+.mission-reward {
+  text-align: center;
+  white-space: nowrap;
+}
+.mission-reward b {
+  display: block;
+  color: #a77a22;
+  font-size: 16px;
+}
+.mission-reward small {
+  font-size: 10px;
+}
+.status-complete {
+  color: #3d8357;
+  font-size: 10px;
+}
+.daily-bonus {
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  border: 1px dashed #d9bd80;
+  background: #fff9e9;
+  border-radius: 12px;
+}
+.daily-bonus > span {
+  font-size: 25px;
+}
+.daily-bonus strong {
+  font-size: 12px;
+}
+.daily-bonus p {
+  margin: 4px 0 0;
+  font-size: 11px;
+  color: #978570;
+}
+.daily-bonus > b {
+  margin-left: auto;
+  white-space: nowrap;
+  font-size: 11px;
+  color: #a17a32;
+}
+.bonus-completed {
+  border-style: solid;
+  background: #f2f8ed;
+}
+.goal-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 15px;
+}
+.goal-grid .card {
+  display: flex;
+  flex-direction: column;
+}
+.goal-grid p {
+  font-size: 12px;
+  color: #93818a;
+}
+.goal-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-top: auto;
+  padding-top: 16px;
+  font-size: 11px;
+}
+.goal-footer b {
+  color: #aa7e28;
+}
+.goal-footer small {
+  display: block;
+  font-size: 10px;
+  font-weight: 400;
+}
+.goal-footer > span {
+  color: #8f7d85;
+  font-size: 10px;
+}
+.week-dots {
+  display: flex;
+  gap: 9px;
+  margin: 5px 0;
+}
+.week-dots span {
+  width: 31px;
+  height: 31px;
+  border-radius: 50%;
+  background: #f0eae3;
+  color: #9b8c82;
+  display: grid;
+  place-items: center;
+  font-size: 11px;
+}
+.week-dots .done {
+  background: #e4eedc;
+  color: #4c7d43;
+}
+.wardrobe-copy {
+  flex: 1;
+}
+.wardrobe-copy small {
+  display: block;
+  margin-top: 9px;
+  font-size: 11px;
+}
+.shop-balance {
+  text-align: right;
+  white-space: nowrap;
+}
+.shop-balance small {
+  font-size: 9px;
+  letter-spacing: 1.5px;
+  color: #a88d5b;
+}
+.shop-balance b {
+  display: block;
+  color: #996c1e;
+  font-size: 27px;
+}
+.shop-balance a {
+  color: var(--wine);
+  font-size: 11px;
+}
+.equipment-actions {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+.equipment-actions button {
+  font-size: 10px;
+  padding: 5px 8px;
+}
+.shop-tabs {
+  flex-wrap: wrap;
+}
+.shop-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 17px;
+}
+.shop-card {
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: white;
+  border-radius: 14px;
+}
+.shop-card.is-equipped {
+  border-color: #a66d2c;
+  box-shadow: 0 0 0 2px #e9d6ad;
+}
+.shop-art-wrap {
+  height: 185px;
+  background: radial-gradient(circle at 50% 60%, #fff9e9, #f0e6d7);
+  position: relative;
+  padding: 20px;
+  display: grid;
+  place-items: center;
+}
+.rarity-especial {
+  background: radial-gradient(circle, #fbfcff, #e4eaf1);
+}
+.rarity-raro {
+  background: radial-gradient(circle, #fdf8ff, #ede2f0);
+}
+.rarity-épico {
+  background: radial-gradient(circle, #fff2c9, #e8ce9c);
+}
+.rarity-tag {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  font-size: 9px;
+  background: #ffffffb8;
+  color: #8d7169;
+  padding: 3px 7px;
+  border-radius: 4px;
+}
+.owned-tag {
+  position: absolute;
+  bottom: 10px;
+  right: 12px;
+  font-size: 9px;
+  color: #51844e;
+  background: #fff;
+  border-radius: 4px;
+  padding: 3px 6px;
+}
+.shop-art {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+.shop-placeholder {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 6px;
+  color: #ad9988;
+}
+.shop-placeholder > span {
+  font-size: 65px;
+  font-weight: 300;
+  opacity: 0.5;
+}
+.shop-placeholder small {
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+.shop-card-body {
+  padding: 18px;
+}
+.shop-category {
+  font-size: 9px;
+  letter-spacing: 1.5px;
+  color: #a88a75;
+}
+.shop-card h3 {
+  font-size: 15px;
+  margin: 6px 0 12px;
+}
+.item-requirements {
+  min-height: 35px;
+  font-size: 10px;
+  color: #9d8490;
+}
+.item-requirements span {
+  display: block;
+}
+.item-requirements small {
+  font-size: 9px;
+}
+.item-requirements .met {
+  color: #59845c;
+}
+.item-price {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin: 10px 0 14px;
+}
+.item-price b {
+  font-size: 20px;
+  color: #ac7a28;
+}
+.item-price small {
+  font-size: 11px;
+}
+.shop-card-body > button,
+.earn-link {
+  display: block;
+  width: 100%;
+  font-size: 11px;
+  text-align: center;
+}
+.shop-card-body > button:disabled {
+  cursor: not-allowed;
+  background: #f4f0eb;
+  color: #9b8f8b;
+}
+.equipped-button {
+  background: #f7efd9;
+  color: #9b7328;
+  border-color: #ead7a7;
+}
+.earn-link {
+  color: var(--wine);
+  padding: 10px 0;
+}
+.shop-explainer {
+  margin-top: 24px;
+}
+.shop-explainer p {
+  color: #93828b;
+  font-size: 12px;
+}
+.shop-explainer small {
+  font-size: 10px;
+}
+.purchase-preview {
+  height: 170px;
+  display: grid;
+  place-items: center;
+  background: #fbf4e6;
+  border-radius: 12px;
+  margin: 20px 0;
+}
+.purchase-cost {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--line);
+  padding: 11px 0;
+  font-size: 12px;
+}
+.purchase-cost b {
+  color: #a77a2d;
+}
+#purchase-error {
+  color: #b12746;
+  font-size: 12px;
+}
+/* Guía animada, controlada por el usuario y accesible sin movimiento. */
+.tour-dialog {
+  width: min(560px, calc(100vw - 28px));
+  padding: 30px;
+}
+.tour-dialog .close {
+  z-index: 2;
+}
+.tour-slide {
+  animation: tour-enter 0.25s ease both;
+}
+.tour-progress {
+  display: flex;
+  gap: 6px;
+  padding-right: 25px;
+  margin: 5px 0 20px;
+}
+.tour-progress span {
+  flex: 1;
+  height: 4px;
+  border-radius: 4px;
+  background: #eee5dd;
+}
+.tour-progress .current {
+  background: var(--wine);
+}
+.tour-demo {
+  height: 200px;
+  background: linear-gradient(130deg, #fbefd4, #f5e3dd);
+  border: 1px solid #f0dfc4;
+  border-radius: 13px;
+  margin-bottom: 23px;
+  padding: 25px;
+  position: relative;
+  overflow: hidden;
+}
+.tour-demo.welcome {
+  display: block;
+}
+.tour-description {
+  color: #8b7580;
+  font-size: 13px;
+  line-height: 1.8;
+}
+.tour-try {
+  font-size: 11px;
+  padding: 0;
+}
+.tour-mascot {
+  font-size: 83px;
+  text-align: center;
+  animation: gentle-float 3s ease-in-out infinite;
+}
+.demo-welcome {
+  text-align: center;
+  font-size: 11px;
+  color: #a28770;
+  margin-top: 12px;
+}
+.orbit {
+  position: absolute;
+  font-size: 23px;
+  animation: gentle-float 3s ease-in-out infinite reverse;
+}
+.orbit-one {
+  top: 25px;
+  right: 100px;
+  color: #d2a540;
+}
+.orbit-two {
+  top: 80px;
+  left: 65px;
+}
+.orbit-three {
+  top: 100px;
+  right: 65px;
+  color: var(--wine);
+}
+.demo-community {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: #fff;
+  border: 1px solid #e8d7c9;
+  border-radius: 9px;
+  padding: 14px;
+  margin-bottom: 12px;
+  font-size: 12px;
+}
+.demo-community > span:first-child {
+  font-size: 23px;
+}
+.demo-community > span:last-child {
+  margin-left: auto;
+}
+.demo-join {
+  background: var(--wine);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 6px;
+  animation: button-glow 2.5s ease-in-out infinite;
+}
+.demo-cursor {
+  position: absolute;
+  font-size: 30px;
+  top: 78px;
+  right: 57px;
+  color: #594149;
+  animation: cursor-tap 2.5s ease-in-out infinite;
+}
+.demo-editor {
+  background: white;
+  padding: 15px;
+  border-radius: 9px;
+  border: 1px solid #e7d8ce;
+}
+.demo-editor small {
+  display: block;
+  font-size: 9px;
+  color: #8192ad;
+}
+.demo-editor b {
+  display: block;
+  font-size: 13px;
+  margin-top: 6px;
+}
+.demo-lines {
+  margin: 12px 0;
+}
+.demo-lines i {
+  display: block;
+  height: 5px;
+  width: 85%;
+  margin-bottom: 6px;
+  background: #eee7e1;
+  border-radius: 3px;
+  animation: line-grow 3s ease-in-out infinite;
+  transform-origin: left;
+}
+.demo-lines i:last-child {
+  width: 60%;
+  animation-delay: 0.2s;
+}
+.demo-submit {
+  display: block;
+  margin-left: auto;
+  width: 85px;
+  background: var(--wine);
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  padding: 6px;
+  border-radius: 5px;
+}
+.demo-bubble {
+  background: white;
+  border-radius: 12px 12px 12px 2px;
+  padding: 13px;
+  font-size: 12px;
+  width: 85%;
+  animation: bubble-in 3s ease-in-out infinite;
+}
+.demo-bubble.answer {
+  margin: 12px 0 10px auto;
+  background: #f3dba6;
+  border-radius: 12px 12px 2px 12px;
+  animation-delay: 0.3s;
+}
+.demo-reactions {
+  display: flex;
+  justify-content: space-around;
+  font-size: 10px;
+  color: #ad7e65;
+}
+.reward .demo-coin {
+  font-size: 75px;
+  line-height: 1.1;
+  color: #ca9428;
+  text-align: center;
+  animation: gentle-float 2s ease-in-out infinite;
+}
+.demo-earned {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  color: var(--dark);
+  margin: 6px 0;
+}
+.demo-rewards {
+  display: flex;
+  justify-content: center;
+  gap: 9px;
+}
+.demo-rewards span {
+  background: #fff9e8;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 11px;
+  color: #b18c39;
+}
+.tour-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-top: 24px;
+}
+.tour-controls span {
+  font-size: 10px;
+  color: #ae98a0;
+}
+.tour-controls button {
+  font-size: 12px;
+}
+.tour-preference {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 20px 0 8px;
+  font-size: 11px;
+  color: #9b858e;
+}
+.tour-preference input {
+  width: 15px;
+  height: 15px;
+  accent-color: var(--wine);
+}
+.tour-skip {
+  font-size: 11px;
+}
+.tour-dialog .subtle {
+  font-size: 10px;
+  margin-bottom: 0;
+}
+@keyframes tour-enter {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes gentle-float {
+  50% {
+    transform: translateY(-6px) rotate(3deg);
+  }
+}
+@keyframes button-glow {
+  50% {
+    box-shadow: 0 0 0 5px #820e2b15;
+  }
+}
+@keyframes cursor-tap {
+  50% {
+    transform: translate(-6px, -7px);
+  }
+}
+@keyframes line-grow {
+  0%,
+  100% {
+    transform: scaleX(0.65);
+  }
+  50% {
+    transform: scaleX(1);
+  }
+}
+@keyframes bubble-in {
+  0%,
+  100% {
+    opacity: 0.55;
+    transform: translateY(3px);
+  }
+  30%,
+  80% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@media (max-width: 720px) {
+  .journey-banner,
+  .wardrobe-banner {
+    padding: 19px;
+    gap: 14px;
+    flex-wrap: wrap;
+  }
+  .journey-banner h2 {
+    font-size: 19px;
+  }
+  .journey-ring {
+    width: 85px;
+    height: 85px;
+  }
+  .journey-banner > div:first-child {
+    max-width: 190px;
+  }
+  .goal-grid {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .mission-section-heading {
+    flex-wrap: wrap;
+  }
+  .mission-progress-card .mission-copy {
+    min-width: calc(100% - 55px);
+  }
+  .mission-progress-card .mission-reward {
+    margin-left: 39px;
+    display: flex;
+    gap: 9px;
+    align-items: center;
+  }
+  .mission-progress-card > button {
+    margin-left: auto;
+  }
+  .mission-progress-card .status-complete {
+    margin-left: auto;
+  }
+  .wardrobe-preview .large-avatar {
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+  }
+  .wardrobe-copy h2 {
+    font-size: 19px;
+  }
+  .shop-balance {
+    width: 100%;
+    border-top: 1px solid #e4d4ba;
+    padding-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .shop-balance b {
+    font-size: 23px;
+  }
+  .shop-grid {
+    gap: 10px;
+  }
+  .shop-card-body {
+    padding: 12px;
+  }
+  .shop-card h3 {
+    font-size: 13px;
+    min-height: 36px;
+  }
+  .shop-art-wrap {
+    height: 140px;
+    padding: 15px;
+  }
+  .shop-placeholder > span {
+    font-size: 45px;
+  }
+  .shop-placeholder small {
+    font-size: 8px;
+  }
+  .shop-card-body > button,
+  .earn-link {
+    font-size: 10px;
+    min-height: 38px;
+  }
+  .tour-dialog {
+    padding: 24px 20px;
+  }
+  .tour-demo {
+    height: 185px;
+    padding: 20px;
+  }
+  .tour-dialog h2 {
+    font-size: 23px;
+  }
+  .orbit-one {
+    right: 50px;
+  }
+  .orbit-two {
+    left: 30px;
+  }
+  .orbit-three {
+    right: 30px;
+  }
+  .demo-cursor {
+    right: 42px;
+  }
+  .daily-bonus {
+    gap: 10px;
+  }
+  .daily-bonus p {
+    font-size: 10px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .tour-slide,
+  .tour-demo *,
+  .tour-demo *::before {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+/* El personaje mantiene la misma proporción en el perfil, tarjetas y vestidor. */
+.avatar-composed {
+  overflow: hidden;
+  display: inline-block;
+  background: #f5e9d7;
+}
+.character-stage {
+  position: absolute;
+  width: 100%;
+  height: 150%;
+  left: 0;
+  top: 0;
+}
+.character-base {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+.character-layer {
+  position: absolute;
+  display: block;
+}
+.character-layer > svg,
+.character-layer > img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.wardrobe-preview .large-avatar {
+  width: 180px;
+  height: 270px;
+  border-radius: 14px;
+}
+.wardrobe-preview .character-stage {
+  height: 100%;
+}
+.shop-art {
+  display: block;
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+}
+.shop-tabs {
+  flex-wrap: wrap;
+}
+.wardrobe-copy .wardrobe-hint {
+  margin: 12px 0;
+  max-width: 470px;
+  line-height: 1.6;
+}
+@media (max-width: 600px) {
+  .wardrobe-banner {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .wardrobe-copy {
+    flex-basis: 100%;
+  }
+  .shop-balance {
+    margin-left: 0;
+  }
+}
+
+.layer-outfit {
+  transform: translateY(-7%) scale(1.18);
+  transform-origin: center top;
+}
+
+/* Interfaz móvil: áreas táctiles, teclado y zonas seguras de iOS/Android. */
+@media (max-width: 720px) {
+  .header {
+    height: auto;
+    min-height: 116px;
+    display: grid;
+    grid-template-columns: 1fr 44px;
+    gap: 10px;
+    padding: 12px 16px;
+    padding-top: max(12px, env(safe-area-inset-top));
+  }
+  .header .brand {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .header .account {
+    grid-column: 2;
+    grid-row: 1;
+    width: 44px;
+    height: 44px;
+  }
+  .header .search {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    max-width: none;
+    width: 100%;
+    margin: 0;
+    min-height: 42px;
+    box-sizing: border-box;
+  }
+  .header .search input,
+  input,
+  select,
+  textarea {
+    font-size: 16px;
+  }
+  .shell {
+    padding: 0 12px;
+  }
+  main {
+    padding-bottom: calc(140px + env(safe-area-inset-bottom));
+    min-width: 0;
+  }
+  .mobile-nav {
+    padding: 6px 4px calc(6px + env(safe-area-inset-bottom));
+    gap: 2px;
+  }
+  .mobile-nav a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 48px;
+    flex: 1;
+    font-size: 11px;
+    border-radius: 12px;
+    white-space: nowrap;
+  }
+  .mobile-nav a.active {
+    background: #f8e8ed;
+    color: var(--wine);
+    font-weight: 800;
+  }
+  .mobile-compose {
+    bottom: calc(76px + env(safe-area-inset-bottom));
+    width: 52px;
+    height: 52px;
+  }
+  button,
+  .primary,
+  .tabs .tab {
+    min-height: 44px;
+  }
+  .post-actions {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 8px;
+  }
+  .post-actions button {
+    font-size: 13px;
+    min-width: 44px;
+  }
+  .post-body,
+  .post h3,
+  .comment {
+    overflow-wrap: anywhere;
+  }
+  .post-body {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .shop-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+  .shop-card-body {
+    padding: 12px;
+  }
+  .shop-card h3 {
+    font-size: 15px;
+    overflow-wrap: anywhere;
+  }
+  .shop-card button {
+    font-size: 12px;
+    padding: 9px 6px;
+  }
+  .shop-art {
+    height: 125px;
+  }
+  .shop-tabs {
+    gap: 6px;
+  }
+  .shop-tabs .tab {
+    font-size: 12px;
+    padding: 8px 10px;
+  }
+  .wardrobe-banner {
+    padding: 18px;
+    gap: 16px;
+  }
+  .wardrobe-preview .large-avatar {
+    width: 140px;
+    height: 210px;
+  }
+  .wardrobe-copy {
+    text-align: center;
+  }
+  .equipment-actions {
+    justify-content: center;
+  }
+  .shop-balance {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .journey-banner {
+    padding: 18px;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  .journey-banner h2 {
+    font-size: 20px;
+  }
+  .mission-section-heading {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .mission-large .mission-copy {
+    min-width: 0;
+    flex: 1;
+  }
+  .mission-large button {
+    margin-left: 0;
+    width: 100%;
+  }
+  .goal-grid {
+    grid-template-columns: 1fr;
+  }
+  dialog {
+    box-sizing: border-box;
+    width: calc(100% - 20px);
+    max-width: 480px;
+    max-height: calc(100dvh - 20px);
+    padding: 25px 18px;
+    overflow: auto;
+    overscroll-behavior: contain;
+  }
+  dialog.tour-dialog {
+    padding: 20px 16px;
+  }
+  .tour-demo {
+    height: 155px;
+    min-height: 0;
+  }
+  .tour-slide h2 {
+    font-size: 23px;
+  }
+  .tour-description {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  .tour-controls {
+    gap: 8px;
+  }
+  .tour-controls button {
+    font-size: 13px;
+    padding: 10px;
+  }
+  .tour-preference {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+  .form-actions {
+    display: flex;
+    gap: 10px;
+  }
+  .form-actions button {
+    flex: 1;
+  }
+  #toast {
+    max-width: calc(100% - 32px);
+    box-sizing: border-box;
+    bottom: calc(138px + env(safe-area-inset-bottom));
+  }
+}
+@media (max-width: 350px) {
+  .shop-grid {
+    grid-template-columns: 1fr;
+  }
+  .mobile-nav a {
+    font-size: 10px;
+  }
+}
+@media (max-height: 650px) and (max-width: 720px) {
+  .tour-demo {
+    height: 100px;
+  }
+  .tour-mascot {
+    font-size: 55px;
+  }
+}

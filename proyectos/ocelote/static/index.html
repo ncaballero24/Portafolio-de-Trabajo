@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#800c29" />
+    <meta
+      name="description"
+      content="Ocelote: comunidad estudiantil del CETis 15. Comparte, aprende y crece."
+    />
+    <title>Ocelote · Comunidad CETis 15</title>
+    <link rel="stylesheet" href="/style.css?v=20261029-mobile2" />
+    <link rel="stylesheet" href="/features.css?v=20261029-mobile2" />
+    <script defer src="/features.js?v=20261029-mobile2"></script>
+    <script defer src="/app.js?v=20261029-mobile2"></script>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#inicio" class="brand"
+        ><span class="brand-paw">✦</span><span>OCELOTE<small>COMUNIDAD CETis 15</small></span></a
+      ><label class="search"
+        ><span>⌕</span
+        ><input
+          id="search"
+          placeholder="Buscar en la comunidad…"
+          aria-label="Buscar publicaciones y comunidades"
+        /><kbd>/</kbd></label
+      ><button class="gold-button" data-action="compose">＋ <span>Crear publicación</span></button
+      ><button class="account" id="account" data-action="account" aria-label="Tu cuenta">🐯</button>
+    </header>
+    <div class="shell">
+      <aside class="sidebar">
+        <div class="campus-label">
+          <span class="campus-symbol">15</span>
+          <div>CETis 15<small>Un espacio para todos</small></div>
+          <span class="online-dot"></span>
+        </div>
+        <nav id="nav"></nav>
+        <div class="sidebar-heading">
+          TUS COMUNIDADES <a href="#comunidades" aria-label="Explorar comunidades">＋</a>
+        </div>
+        <div id="community-nav"></div>
+        <div class="sidebar-bottom">
+          <span>✦ Hecho para nuestra comunidad</span
+          ><button data-action="tour">✦ Guía rápida</button
+          ><button data-action="rules">Acuerdos de convivencia ↗</button
+          ><small>Conecta. Aprende. Deja huella.</small>
+        </div>
+      </aside>
+      <main id="main" tabindex="-1"><div class="loading">Preparando tu comunidad…</div></main>
+      <aside id="right" class="right"></aside>
+    </div>
+    <div id="toast" role="status" aria-live="polite"></div>
+    <dialog id="dialog">
+      <button class="close" data-action="close" aria-label="Cerrar">×</button>
+      <div id="dialog-content"></div>
+    </dialog>
+    <button class="mobile-compose" data-action="compose" aria-label="Crear publicación">＋</button>
+    <nav class="mobile-nav" aria-label="Navegación móvil">
+      <a href="#inicio">⌂ Inicio</a><a href="#comunidades">♧ Comunidades</a
+      ><a href="#misiones">⚑ Misiones</a><a href="#tienda">◈ Tienda</a
+      ><a href="#perfil">☺ Perfil</a>
+    </nav>
+  </body>
+</html>

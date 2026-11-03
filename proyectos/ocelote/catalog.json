@@ -1,0 +1,1570 @@
+[
+  {
+    "id": "look_guinda",
+    "name": "Conjunto guinda",
+    "slot": "avatar",
+    "price": 120,
+    "level": 1,
+    "streak": 0,
+    "rarity": "Básico",
+    "asset": "/assets/shop/conjuntos.png",
+    "available": true,
+    "rect": [
+      170,
+      40,
+      450,
+      1140,
+      1312,
+      1199
+    ],
+    "placement": null
+  },
+  {
+    "id": "look_crema",
+    "name": "Conjunto crema",
+    "slot": "avatar",
+    "price": 120,
+    "level": 1,
+    "streak": 0,
+    "rarity": "Básico",
+    "asset": "/assets/shop/conjuntos.png",
+    "available": true,
+    "rect": [
+      645,
+      130,
+      470,
+      1040,
+      1312,
+      1199
+    ],
+    "placement": null
+  },
+  {
+    "id": "base_neutral",
+    "name": "Base personalizable",
+    "slot": "avatar",
+    "price": 0,
+    "level": 1,
+    "streak": 0,
+    "rarity": "Básico",
+    "asset": "/assets/shop/base.png",
+    "available": true,
+    "rect": null,
+    "placement": null
+  },
+  {
+    "id": "base_long",
+    "name": "Estudiante de cabello largo",
+    "slot": "avatar",
+    "price": 0,
+    "level": 1,
+    "streak": 0,
+    "rarity": "Básico",
+    "asset": "/assets/shop/bases.png",
+    "available": true,
+    "rect": [
+      650,
+      70,
+      485,
+      1080,
+      1312,
+      1199
+    ],
+    "placement": null
+  },
+  {
+    "id": "base_short",
+    "name": "Estudiante de cabello corto",
+    "slot": "avatar",
+    "price": 0,
+    "level": 1,
+    "streak": 0,
+    "rarity": "Básico",
+    "asset": "/assets/shop/bases.png",
+    "available": true,
+    "rect": [
+      180,
+      30,
+      445,
+      1120,
+      1312,
+      1199
+    ],
+    "placement": null
+  },
+  {
+    "id": "hair_01",
+    "name": "Despeinado oscuro",
+    "slot": "hair",
+    "price": 80,
+    "level": 1,
+    "streak": 0,
+    "rarity": "Básico",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      690,
+      255,
+      100,
+      100,
+      1312,
+      1200
+    ],
+    "placement": [
+      26,
+      3,
+      48,
+      22
+    ]
+  },
+  {
+    "id": "hair_02",
+    "name": "Azul medianoche",
+    "slot": "hair",
+    "price": 100,
+    "level": 1,
+    "streak": 0,
+    "rarity": "Básico",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      790,
+      255,
+      100,
+      100,
+      1312,
+      1200
+    ],
+    "placement": [
+      26,
+      3,
+      48,
+      22
+    ]
+  },
+  {
+    "id": "hair_03",
+    "name": "Castaño",
+    "slot": "hair",
+    "price": 120,
+    "level": 1,
+    "streak": 0,
+    "rarity": "Básico",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      890,
+      255,
+      100,
+      100,
+      1312,
+      1200
+    ],
+    "placement": [
+      26,
+      3,
+      48,
+      22
+    ]
+  },
+  {
+    "id": "hair_04",
+    "name": "Dorado",
+    "slot": "hair",
+    "price": 150,
+    "level": 1,
+    "streak": 0,
+    "rarity": "Básico",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      990,
+      255,
+      100,
+      100,
+      1312,
+      1200
+    ],
+    "placement": [
+      26,
+      3,
+      48,
+      22
+    ]
+  },
+  {
+    "id": "hair_05",
+    "name": "Blanco y violeta",
+    "slot": "hair",
+    "price": 180,
+    "level": 3,
+    "streak": 0,
+    "rarity": "Especial",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      1090,
+      255,
+      100,
+      100,
+      1312,
+      1200
+    ],
+    "placement": [
+      26,
+      3,
+      48,
+      22
+    ]
+  },
+  {
+    "id": "hair_06",
+    "name": "Bob ciruela",
+    "slot": "hair",
+    "price": 220,
+    "level": 3,
+    "streak": 0,
+    "rarity": "Especial",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      1190,
+      255,
+      100,
+      100,
+      1312,
+      1200
+    ],
+    "placement": [
+      26,
+      3,
+      48,
+      22
+    ]
+  },
+  {
+    "id": "hair_07",
+    "name": "Gorra urbana",
+    "slot": "hair",
+    "price": 120,
+    "level": 1,
+    "streak": 0,
+    "rarity": "Básico",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      690,
+      370,
+      100,
+      100,
+      1312,
+      1200
+    ],
+    "placement": [
+      26,
+      3,
+      48,
+      22
+    ]
+  },
+  {
+    "id": "hair_08",
+    "name": "Rojo fuego",
+    "slot": "hair",
+    "price": 180,
+    "level": 3,
+    "streak": 3,
+    "rarity": "Especial",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      790,
+      370,
+      100,
+      100,
+      1312,
+      1200
+    ],
+    "placement": [
+      26,
+      3,
+      48,
+      22
+    ]
+  },
+  {
+    "id": "hair_09",
+    "name": "Violeta",
+    "slot": "hair",
+    "price": 220,
+    "level": 3,
+    "streak": 3,
+    "rarity": "Especial",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      890,
+      370,
+      100,
+      100,
+      1312,
+      1200
+    ],
+    "placement": [
+      26,
+      3,
+      48,
+      22
+    ]
+  },
+  {
+    "id": "hair_10",
+    "name": "Verde bosque",
+    "slot": "hair",
+    "price": 280,
+    "level": 3,
+    "streak": 3,
+    "rarity": "Especial",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      990,
+      370,
+      100,
+      100,
+      1312,
+      1200
+    ],
+    "placement": [
+      26,
+      3,
+      48,
+      22
+    ]
+  },
+  {
+    "id": "hair_11",
+    "name": "Lentes sobre el cabello",
+    "slot": "hair",
+    "price": 350,
+    "level": 5,
+    "streak": 7,
+    "rarity": "Raro",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      1090,
+      370,
+      100,
+      100,
+      1312,
+      1200
+    ],
+    "placement": [
+      26,
+      3,
+      48,
+      22
+    ]
+  },
+  {
+    "id": "hair_12",
+    "name": "Moño alto",
+    "slot": "hair",
+    "price": 450,
+    "level": 5,
+    "streak": 7,
+    "rarity": "Raro",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      1190,
+      370,
+      100,
+      100,
+      1312,
+      1200
+    ],
+    "placement": [
+      26,
+      3,
+      48,
+      22
+    ]
+  },
+  {
+    "id": "hat_01",
+    "name": "Corona ocelote",
+    "slot": "hat",
+    "price": 900,
+    "level": 10,
+    "streak": 14,
+    "rarity": "Épico",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      15,
+      545,
+      110,
+      110,
+      1312,
+      1200
+    ],
+    "placement": [
+      32,
+      0,
+      36,
+      16
+    ]
+  },
+  {
+    "id": "hat_02",
+    "name": "Gorra CETis",
+    "slot": "hat",
+    "price": 100,
+    "level": 1,
+    "streak": 0,
+    "rarity": "Básico",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      125,
+      545,
+      110,
+      110,
+      1312,
+      1200
+    ],
+    "placement": [
+      25,
+      2,
+      50,
+      24
+    ]
+  },
+  {
+    "id": "hat_03",
+    "name": "Ranita",
+    "slot": "hat",
+    "price": 120,
+    "level": 1,
+    "streak": 0,
+    "rarity": "Básico",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      235,
+      545,
+      110,
+      110,
+      1312,
+      1200
+    ],
+    "placement": [
+      25,
+      2,
+      50,
+      24
+    ]
+  },
+  {
+    "id": "hat_04",
+    "name": "Gatito",
+    "slot": "hat",
+    "price": 150,
+    "level": 1,
+    "streak": 0,
+    "rarity": "Básico",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      345,
+      545,
+      110,
+      110,
+      1312,
+      1200
+    ],
+    "placement": [
+      25,
+      2,
+      50,
+      24
+    ]
+  },
+  {
+    "id": "hat_05",
+    "name": "Huevo frito",
+    "slot": "hat",
+    "price": 180,
+    "level": 3,
+    "streak": 0,
+    "rarity": "Especial",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      455,
+      545,
+      110,
+      110,
+      1312,
+      1200
+    ],
+    "placement": [
+      25,
+      2,
+      50,
+      24
+    ]
+  },
+  {
+    "id": "hat_06",
+    "name": "Calabaza",
+    "slot": "hat",
+    "price": 220,
+    "level": 3,
+    "streak": 0,
+    "rarity": "Especial",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      565,
+      545,
+      110,
+      110,
+      1312,
+      1200
+    ],
+    "placement": [
+      25,
+      2,
+      50,
+      24
+    ]
+  },
+  {
+    "id": "hat_07",
+    "name": "Gorro tejido",
+    "slot": "hat",
+    "price": 120,
+    "level": 1,
+    "streak": 0,
+    "rarity": "Básico",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      15,
+      665,
+      110,
+      110,
+      1312,
+      1200
+    ],
+    "placement": [
+      25,
+      2,
+      50,
+      24
+    ]
+  },
+  {
+    "id": "hat_08",
+    "name": "Sombrero de mago",
+    "slot": "hat",
+    "price": 180,
+    "level": 3,
+    "streak": 3,
+    "rarity": "Especial",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      125,
+      665,
+      110,
+      110,
+      1312,
+      1200
+    ],
+    "placement": [
+      25,
+      2,
+      50,
+      24
+    ]
+  },
+  {
+    "id": "hat_09",
+    "name": "Tiburón",
+    "slot": "hat",
+    "price": 220,
+    "level": 3,
+    "streak": 3,
+    "rarity": "Especial",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      235,
+      665,
+      110,
+      110,
+      1312,
+      1200
+    ],
+    "placement": [
+      25,
+      2,
+      50,
+      24
+    ]
+  },
+  {
+    "id": "hat_10",
+    "name": "Sombrero de paja",
+    "slot": "hat",
+    "price": 280,
+    "level": 3,
+    "streak": 3,
+    "rarity": "Especial",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      345,
+      665,
+      110,
+      110,
+      1312,
+      1200
+    ],
+    "placement": [
+      25,
+      2,
+      50,
+      24
+    ]
+  },
+  {
+    "id": "hat_11",
+    "name": "Capucha roja",
+    "slot": "hat",
+    "price": 350,
+    "level": 5,
+    "streak": 7,
+    "rarity": "Raro",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      455,
+      665,
+      110,
+      110,
+      1312,
+      1200
+    ],
+    "placement": [
+      25,
+      2,
+      50,
+      24
+    ]
+  },
+  {
+    "id": "hat_12",
+    "name": "Bolsa sonriente",
+    "slot": "hat",
+    "price": 450,
+    "level": 5,
+    "streak": 7,
+    "rarity": "Raro",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      565,
+      665,
+      110,
+      110,
+      1312,
+      1200
+    ],
+    "placement": [
+      25,
+      2,
+      50,
+      24
+    ]
+  },
+  {
+    "id": "outfit_01",
+    "name": "Sudadera guinda",
+    "slot": "outfit",
+    "price": 80,
+    "level": 1,
+    "streak": 0,
+    "rarity": "Básico",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      10,
+      815,
+      110,
+      120,
+      1312,
+      1200
+    ],
+    "placement": [
+      25,
+      35,
+      50,
+      34
+    ]
+  },
+  {
+    "id": "outfit_02",
+    "name": "Chaqueta urbana",
+    "slot": "outfit",
+    "price": 100,
+    "level": 1,
+    "streak": 0,
+    "rarity": "Básico",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      120,
+      815,
+      110,
+      120,
+      1312,
+      1200
+    ],
+    "placement": [
+      25,
+      35,
+      50,
+      34
+    ]
+  },
+  {
+    "id": "outfit_03",
+    "name": "Sudadera amarilla",
+    "slot": "outfit",
+    "price": 120,
+    "level": 1,
+    "streak": 0,
+    "rarity": "Básico",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      230,
+      815,
+      110,
+      120,
+      1312,
+      1200
+    ],
+    "placement": [
+      25,
+      35,
+      50,
+      34
+    ]
+  },
+  {
+    "id": "outfit_04",
+    "name": "Uniforme escolar",
+    "slot": "outfit",
+    "price": 150,
+    "level": 1,
+    "streak": 0,
+    "rarity": "Básico",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      340,
+      815,
+      110,
+      120,
+      1312,
+      1200
+    ],
+    "placement": [
+      25,
+      35,
+      50,
+      34
+    ]
+  },
+  {
+    "id": "outfit_05",
+    "name": "Uniforme marinero",
+    "slot": "outfit",
+    "price": 180,
+    "level": 3,
+    "streak": 0,
+    "rarity": "Especial",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      450,
+      815,
+      110,
+      120,
+      1312,
+      1200
+    ],
+    "placement": [
+      25,
+      35,
+      50,
+      34
+    ]
+  },
+  {
+    "id": "outfit_06",
+    "name": "Sudadera gatito",
+    "slot": "outfit",
+    "price": 220,
+    "level": 3,
+    "streak": 0,
+    "rarity": "Especial",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      560,
+      815,
+      110,
+      120,
+      1312,
+      1200
+    ],
+    "placement": [
+      25,
+      35,
+      50,
+      34
+    ]
+  },
+  {
+    "id": "outfit_07",
+    "name": "Disfraz de rana",
+    "slot": "outfit",
+    "price": 120,
+    "level": 1,
+    "streak": 0,
+    "rarity": "Básico",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      10,
+      930,
+      110,
+      120,
+      1312,
+      1200
+    ],
+    "placement": [
+      20,
+      34,
+      60,
+      63
+    ]
+  },
+  {
+    "id": "outfit_08",
+    "name": "Disfraz de conejo",
+    "slot": "outfit",
+    "price": 180,
+    "level": 3,
+    "streak": 3,
+    "rarity": "Especial",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      120,
+      930,
+      110,
+      120,
+      1312,
+      1200
+    ],
+    "placement": [
+      20,
+      34,
+      60,
+      63
+    ]
+  },
+  {
+    "id": "outfit_09",
+    "name": "Esqueleto",
+    "slot": "outfit",
+    "price": 220,
+    "level": 3,
+    "streak": 3,
+    "rarity": "Especial",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      230,
+      930,
+      110,
+      120,
+      1312,
+      1200
+    ],
+    "placement": [
+      20,
+      34,
+      60,
+      63
+    ]
+  },
+  {
+    "id": "outfit_10",
+    "name": "Plátano",
+    "slot": "outfit",
+    "price": 280,
+    "level": 3,
+    "streak": 3,
+    "rarity": "Especial",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      340,
+      930,
+      110,
+      120,
+      1312,
+      1200
+    ],
+    "placement": [
+      20,
+      34,
+      60,
+      63
+    ]
+  },
+  {
+    "id": "outfit_11",
+    "name": "Disfraz de tiburón",
+    "slot": "outfit",
+    "price": 350,
+    "level": 5,
+    "streak": 7,
+    "rarity": "Raro",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      450,
+      930,
+      110,
+      120,
+      1312,
+      1200
+    ],
+    "placement": [
+      20,
+      34,
+      60,
+      63
+    ]
+  },
+  {
+    "id": "outfit_12",
+    "name": "Chaqueta a cuadros",
+    "slot": "outfit",
+    "price": 450,
+    "level": 5,
+    "streak": 7,
+    "rarity": "Raro",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      560,
+      930,
+      110,
+      120,
+      1312,
+      1200
+    ],
+    "placement": [
+      25,
+      35,
+      50,
+      34
+    ]
+  },
+  {
+    "id": "accessory_01",
+    "name": "Lentes pixel",
+    "slot": "accessory",
+    "price": 80,
+    "level": 1,
+    "streak": 0,
+    "rarity": "Básico",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      690,
+      540,
+      100,
+      110,
+      1312,
+      1200
+    ],
+    "placement": [
+      34,
+      23,
+      32,
+      8
+    ]
+  },
+  {
+    "id": "accessory_02",
+    "name": "Lentes corazón",
+    "slot": "accessory",
+    "price": 100,
+    "level": 1,
+    "streak": 0,
+    "rarity": "Básico",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      790,
+      540,
+      100,
+      110,
+      1312,
+      1200
+    ],
+    "placement": [
+      34,
+      23,
+      32,
+      8
+    ]
+  },
+  {
+    "id": "accessory_03",
+    "name": "Lentes clásicos",
+    "slot": "accessory",
+    "price": 120,
+    "level": 1,
+    "streak": 0,
+    "rarity": "Básico",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      890,
+      540,
+      100,
+      110,
+      1312,
+      1200
+    ],
+    "placement": [
+      34,
+      23,
+      32,
+      8
+    ]
+  },
+  {
+    "id": "accessory_04",
+    "name": "Parche pirata",
+    "slot": "accessory",
+    "price": 150,
+    "level": 1,
+    "streak": 0,
+    "rarity": "Básico",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      990,
+      540,
+      100,
+      110,
+      1312,
+      1200
+    ],
+    "placement": [
+      33,
+      22,
+      34,
+      10
+    ]
+  },
+  {
+    "id": "accessory_05",
+    "name": "Audífonos",
+    "slot": "accessory",
+    "price": 180,
+    "level": 3,
+    "streak": 0,
+    "rarity": "Especial",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      1090,
+      540,
+      100,
+      110,
+      1312,
+      1200
+    ],
+    "placement": [
+      24,
+      15,
+      52,
+      22
+    ]
+  },
+  {
+    "id": "accessory_06",
+    "name": "Curita",
+    "slot": "accessory",
+    "price": 220,
+    "level": 3,
+    "streak": 0,
+    "rarity": "Especial",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      1190,
+      540,
+      100,
+      110,
+      1312,
+      1200
+    ],
+    "placement": [
+      59,
+      28,
+      8,
+      5
+    ]
+  },
+  {
+    "id": "accessory_07",
+    "name": "Aureola",
+    "slot": "accessory",
+    "price": 120,
+    "level": 1,
+    "streak": 0,
+    "rarity": "Básico",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      690,
+      650,
+      100,
+      110,
+      1312,
+      1200
+    ],
+    "placement": [
+      29,
+      0,
+      42,
+      10
+    ]
+  },
+  {
+    "id": "accessory_08",
+    "name": "Orejas de gato",
+    "slot": "accessory",
+    "price": 180,
+    "level": 3,
+    "streak": 3,
+    "rarity": "Especial",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      790,
+      650,
+      100,
+      110,
+      1312,
+      1200
+    ],
+    "placement": [
+      27,
+      1,
+      46,
+      16
+    ]
+  },
+  {
+    "id": "accessory_09",
+    "name": "Cubrebocas",
+    "slot": "accessory",
+    "price": 220,
+    "level": 3,
+    "streak": 3,
+    "rarity": "Especial",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      890,
+      650,
+      100,
+      110,
+      1312,
+      1200
+    ],
+    "placement": [
+      34,
+      28,
+      32,
+      9
+    ]
+  },
+  {
+    "id": "accessory_10",
+    "name": "Bufanda",
+    "slot": "accessory",
+    "price": 280,
+    "level": 3,
+    "streak": 3,
+    "rarity": "Especial",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      990,
+      650,
+      100,
+      110,
+      1312,
+      1200
+    ],
+    "placement": [
+      31,
+      33,
+      38,
+      15
+    ]
+  },
+  {
+    "id": "accessory_11",
+    "name": "Mochila",
+    "slot": "accessory",
+    "price": 350,
+    "level": 5,
+    "streak": 7,
+    "rarity": "Raro",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      1090,
+      650,
+      100,
+      110,
+      1312,
+      1200
+    ],
+    "placement": [
+      63,
+      39,
+      27,
+      28
+    ]
+  },
+  {
+    "id": "accessory_12",
+    "name": "Alas",
+    "slot": "accessory",
+    "price": 450,
+    "level": 5,
+    "streak": 7,
+    "rarity": "Raro",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      1190,
+      650,
+      100,
+      110,
+      1312,
+      1200
+    ],
+    "placement": [
+      12,
+      36,
+      76,
+      26
+    ]
+  },
+  {
+    "id": "object_01",
+    "name": "Laptop",
+    "slot": "object",
+    "price": 80,
+    "level": 1,
+    "streak": 0,
+    "rarity": "Básico",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      690,
+      795,
+      100,
+      100,
+      1312,
+      1200
+    ],
+    "placement": [
+      66,
+      55,
+      27,
+      20
+    ]
+  },
+  {
+    "id": "object_02",
+    "name": "Pizza",
+    "slot": "object",
+    "price": 100,
+    "level": 1,
+    "streak": 0,
+    "rarity": "Básico",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      790,
+      795,
+      100,
+      100,
+      1312,
+      1200
+    ],
+    "placement": [
+      66,
+      55,
+      27,
+      20
+    ]
+  },
+  {
+    "id": "object_03",
+    "name": "Leche",
+    "slot": "object",
+    "price": 120,
+    "level": 1,
+    "streak": 0,
+    "rarity": "Básico",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      890,
+      795,
+      100,
+      100,
+      1312,
+      1200
+    ],
+    "placement": [
+      66,
+      55,
+      27,
+      20
+    ]
+  },
+  {
+    "id": "object_04",
+    "name": "Gatito compañero",
+    "slot": "object",
+    "price": 150,
+    "level": 1,
+    "streak": 0,
+    "rarity": "Básico",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      990,
+      795,
+      100,
+      100,
+      1312,
+      1200
+    ],
+    "placement": [
+      66,
+      55,
+      27,
+      20
+    ]
+  },
+  {
+    "id": "object_05",
+    "name": "Globo corazón",
+    "slot": "object",
+    "price": 180,
+    "level": 3,
+    "streak": 0,
+    "rarity": "Especial",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      1090,
+      795,
+      100,
+      100,
+      1312,
+      1200
+    ],
+    "placement": [
+      66,
+      55,
+      27,
+      20
+    ]
+  },
+  {
+    "id": "object_06",
+    "name": "Control de videojuegos",
+    "slot": "object",
+    "price": 220,
+    "level": 3,
+    "streak": 0,
+    "rarity": "Especial",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      1190,
+      795,
+      100,
+      100,
+      1312,
+      1200
+    ],
+    "placement": [
+      66,
+      55,
+      27,
+      20
+    ]
+  },
+  {
+    "id": "object_07",
+    "name": "Libro",
+    "slot": "object",
+    "price": 120,
+    "level": 1,
+    "streak": 0,
+    "rarity": "Básico",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      690,
+      900,
+      100,
+      100,
+      1312,
+      1200
+    ],
+    "placement": [
+      66,
+      55,
+      27,
+      20
+    ]
+  },
+  {
+    "id": "object_08",
+    "name": "Jugo",
+    "slot": "object",
+    "price": 180,
+    "level": 3,
+    "streak": 3,
+    "rarity": "Especial",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      790,
+      900,
+      100,
+      100,
+      1312,
+      1200
+    ],
+    "placement": [
+      66,
+      55,
+      27,
+      20
+    ]
+  },
+  {
+    "id": "object_09",
+    "name": "Té de burbujas",
+    "slot": "object",
+    "price": 220,
+    "level": 3,
+    "streak": 3,
+    "rarity": "Especial",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      890,
+      900,
+      100,
+      100,
+      1312,
+      1200
+    ],
+    "placement": [
+      66,
+      55,
+      27,
+      20
+    ]
+  },
+  {
+    "id": "object_10",
+    "name": "Pescadito",
+    "slot": "object",
+    "price": 280,
+    "level": 3,
+    "streak": 3,
+    "rarity": "Especial",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      990,
+      900,
+      100,
+      100,
+      1312,
+      1200
+    ],
+    "placement": [
+      66,
+      55,
+      27,
+      20
+    ]
+  },
+  {
+    "id": "object_11",
+    "name": "Bolsa de oro",
+    "slot": "object",
+    "price": 350,
+    "level": 5,
+    "streak": 7,
+    "rarity": "Raro",
+    "asset": "/assets/shop/catalogo.png",
+    "available": true,
+    "rect": [
+      1090,
+      900,
+      100,
+      100,
+      1312,
+      1200
+    ],
+    "placement": [
+      66,
+      55,
+      27,
+      20
+    ]
+  }
+]
