@@ -125,3 +125,13 @@ No se ha publicado el foro ni configurado alojamiento externo, porque el servido
 ## Actualización móvil
 
 Interfaz adaptable desde 320 px, navegación inferior con tienda, búsqueda en una fila propia, controles táctiles de 44 px, campos de 16 px y márgenes para zonas seguras. El tutorial se abre siempre tras el registro; al cargar la página se recupera si la cuenta aún lo tiene pendiente y no lo desactivó. Los recursos incluyen versión en la URL para renovar la caché.
+
+## Avatares ocelote · noviembre de 2026
+
+Los avatares humanos se sustituyeron por ocelotes. Se mantienen los 64 artículos,
+sus identificadores, precios, requisitos y compras existentes. Los conjuntos iniciales
+incluyen piezas predeterminadas; una pieza equipada explícitamente tiene prioridad.
+Ropa, peinados, sombreros, accesorios y objetos se combinan sobre el mismo cuerpo.
+Reinicia el servidor después de actualizar para cargar el catálogo nuevo y recarga
+la página. Conserva siempre `data/`: no necesitas crear otra cuenta ni configurar
+otra contraseña de administrador.

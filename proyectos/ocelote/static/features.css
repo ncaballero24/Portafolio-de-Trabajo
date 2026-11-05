@@ -1134,3 +1134,15 @@
     font-size: 55px;
   }
 }
+
+/* Ocelotes: un lienzo cuadrado común para todas las piezas. */
+.avatar-composed .character-stage { height: 170%; width:170%; left:-35%; top:-30%; }
+.wardrobe-preview .large-avatar { width:240px; height:240px; }
+.wardrobe-preview .character-stage,.shop-avatar .character-stage { width:100%;height:100%;left:0;top:0; }
+.avatar-composed.shop-avatar { display:block;width:100%;height:150px;border-radius:12px; }
+.avatar-composed .layer-outfit { transform:none; }
+.layer-accessory:has([aria-label="Alas"]) { z-index:-1; }
+.character-stage { isolation:isolate; }
+@media(max-width:600px) { .wardrobe-preview .large-avatar {width:210px;height:210px;} }
+
+.character-layer.layer-behind { z-index:-1; }

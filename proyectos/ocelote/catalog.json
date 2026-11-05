@@ -1,96 +1,156 @@
 [
   {
     "id": "look_guinda",
-    "name": "Conjunto guinda",
+    "name": "Ocelote guinda",
     "slot": "avatar",
     "price": 120,
     "level": 1,
     "streak": 0,
     "rarity": "Básico",
-    "asset": "/assets/shop/conjuntos.png",
+    "asset": "/assets/shop/ocelote-base.png",
     "available": true,
-    "rect": [
-      170,
-      40,
-      450,
-      1140,
-      1312,
-      1199
-    ],
-    "placement": null
+    "rect": null,
+    "placement": null,
+    "preset": {
+      "outfit": {
+        "id": "outfit_01",
+        "name": "Sudadera guinda",
+        "asset": "/assets/shop/ocelote-ropa.png",
+        "rect": [
+          40,
+          130,
+          285,
+          200,
+          1448,
+          1086
+        ],
+        "placement": [
+          24,
+          54,
+          52,
+          25
+        ],
+        "slot": "outfit"
+      }
+    }
   },
   {
     "id": "look_crema",
-    "name": "Conjunto crema",
+    "name": "Ocelote escolar",
     "slot": "avatar",
     "price": 120,
     "level": 1,
     "streak": 0,
     "rarity": "Básico",
-    "asset": "/assets/shop/conjuntos.png",
+    "asset": "/assets/shop/ocelote-base.png",
     "available": true,
-    "rect": [
-      645,
-      130,
-      470,
-      1040,
-      1312,
-      1199
-    ],
-    "placement": null
+    "rect": null,
+    "placement": null,
+    "preset": {
+      "outfit": {
+        "id": "outfit_04",
+        "name": "Uniforme escolar",
+        "asset": "/assets/shop/ocelote-ropa.png",
+        "rect": [
+          1126,
+          130,
+          285,
+          200,
+          1448,
+          1086
+        ],
+        "placement": [
+          24,
+          54,
+          52,
+          25
+        ],
+        "slot": "outfit"
+      }
+    }
   },
   {
     "id": "base_neutral",
-    "name": "Base personalizable",
+    "name": "Ocelote clásico",
     "slot": "avatar",
     "price": 0,
     "level": 1,
     "streak": 0,
     "rarity": "Básico",
-    "asset": "/assets/shop/base.png",
+    "asset": "/assets/shop/ocelote-base.png",
     "available": true,
     "rect": null,
     "placement": null
   },
   {
     "id": "base_long",
-    "name": "Estudiante de cabello largo",
+    "name": "Ocelote estilo ciruela",
     "slot": "avatar",
     "price": 0,
     "level": 1,
     "streak": 0,
     "rarity": "Básico",
-    "asset": "/assets/shop/bases.png",
+    "asset": "/assets/shop/ocelote-base.png",
     "available": true,
-    "rect": [
-      650,
-      70,
-      485,
-      1080,
-      1312,
-      1199
-    ],
-    "placement": null
+    "rect": null,
+    "placement": null,
+    "preset": {
+      "hair": {
+        "id": "hair_06",
+        "name": "Bob ciruela",
+        "asset": "/assets/shop/catalogo.png",
+        "rect": [
+          1204,
+          262,
+          86,
+          78,
+          1312,
+          1199
+        ],
+        "placement": [
+          29,
+          19,
+          43,
+          19
+        ],
+        "slot": "hair"
+      }
+    }
   },
   {
     "id": "base_short",
-    "name": "Estudiante de cabello corto",
+    "name": "Ocelote despeinado",
     "slot": "avatar",
     "price": 0,
     "level": 1,
     "streak": 0,
     "rarity": "Básico",
-    "asset": "/assets/shop/bases.png",
+    "asset": "/assets/shop/ocelote-base.png",
     "available": true,
-    "rect": [
-      180,
-      30,
-      445,
-      1120,
-      1312,
-      1199
-    ],
-    "placement": null
+    "rect": null,
+    "placement": null,
+    "preset": {
+      "hair": {
+        "id": "hair_01",
+        "name": "Despeinado oscuro",
+        "asset": "/assets/shop/catalogo.png",
+        "rect": [
+          701,
+          268,
+          84,
+          72,
+          1312,
+          1199
+        ],
+        "placement": [
+          29,
+          19,
+          43,
+          19
+        ],
+        "slot": "hair"
+      }
+    }
   },
   {
     "id": "hair_01",
@@ -103,18 +163,18 @@
     "asset": "/assets/shop/catalogo.png",
     "available": true,
     "rect": [
-      690,
-      255,
-      100,
-      100,
+      701,
+      268,
+      84,
+      72,
       1312,
-      1200
+      1199
     ],
     "placement": [
-      26,
-      3,
-      48,
-      22
+      29,
+      19,
+      43,
+      19
     ]
   },
   {
@@ -128,18 +188,18 @@
     "asset": "/assets/shop/catalogo.png",
     "available": true,
     "rect": [
-      790,
-      255,
-      100,
-      100,
+      801,
+      264,
+      86,
+      76,
       1312,
-      1200
+      1199
     ],
     "placement": [
-      26,
-      3,
-      48,
-      22
+      29,
+      19,
+      43,
+      19
     ]
   },
   {
@@ -153,18 +213,18 @@
     "asset": "/assets/shop/catalogo.png",
     "available": true,
     "rect": [
-      890,
-      255,
-      100,
-      100,
+      903,
+      264,
+      85,
+      76,
       1312,
-      1200
+      1199
     ],
     "placement": [
-      26,
-      3,
-      48,
-      22
+      29,
+      19,
+      43,
+      19
     ]
   },
   {
@@ -178,18 +238,18 @@
     "asset": "/assets/shop/catalogo.png",
     "available": true,
     "rect": [
-      990,
-      255,
-      100,
-      100,
+      1005,
+      267,
+      84,
+      73,
       1312,
-      1200
+      1199
     ],
     "placement": [
-      26,
-      3,
-      48,
-      22
+      29,
+      19,
+      43,
+      19
     ]
   },
   {
@@ -203,18 +263,18 @@
     "asset": "/assets/shop/catalogo.png",
     "available": true,
     "rect": [
-      1090,
-      255,
-      100,
-      100,
+      1104,
+      261,
+      86,
+      79,
       1312,
-      1200
+      1199
     ],
     "placement": [
-      26,
-      3,
-      48,
-      22
+      29,
+      19,
+      43,
+      19
     ]
   },
   {
@@ -228,18 +288,18 @@
     "asset": "/assets/shop/catalogo.png",
     "available": true,
     "rect": [
-      1190,
-      255,
-      100,
-      100,
+      1204,
+      262,
+      86,
+      78,
       1312,
-      1200
+      1199
     ],
     "placement": [
-      26,
-      3,
-      48,
-      22
+      29,
+      19,
+      43,
+      19
     ]
   },
   {
@@ -253,18 +313,18 @@
     "asset": "/assets/shop/catalogo.png",
     "available": true,
     "rect": [
-      690,
-      370,
-      100,
-      100,
+      701,
+      381,
+      81,
+      73,
       1312,
-      1200
+      1199
     ],
     "placement": [
-      26,
-      3,
-      48,
-      22
+      29,
+      19,
+      43,
+      19
     ]
   },
   {
@@ -278,18 +338,18 @@
     "asset": "/assets/shop/catalogo.png",
     "available": true,
     "rect": [
-      790,
-      370,
-      100,
-      100,
+      801,
+      378,
+      86,
+      76,
       1312,
-      1200
+      1199
     ],
     "placement": [
-      26,
-      3,
-      48,
-      22
+      29,
+      19,
+      43,
+      19
     ]
   },
   {
@@ -303,18 +363,18 @@
     "asset": "/assets/shop/catalogo.png",
     "available": true,
     "rect": [
-      890,
-      370,
-      100,
-      100,
+      903,
+      382,
+      84,
+      72,
       1312,
-      1200
+      1199
     ],
     "placement": [
-      26,
-      3,
-      48,
-      22
+      29,
+      19,
+      43,
+      19
     ]
   },
   {
@@ -328,18 +388,18 @@
     "asset": "/assets/shop/catalogo.png",
     "available": true,
     "rect": [
-      990,
-      370,
-      100,
-      100,
+      1004,
+      381,
+      84,
+      73,
       1312,
-      1200
+      1199
     ],
     "placement": [
-      26,
-      3,
-      48,
-      22
+      29,
+      19,
+      43,
+      19
     ]
   },
   {
@@ -353,18 +413,18 @@
     "asset": "/assets/shop/catalogo.png",
     "available": true,
     "rect": [
-      1090,
-      370,
-      100,
-      100,
+      1103,
+      384,
+      84,
+      70,
       1312,
-      1200
+      1199
     ],
     "placement": [
-      26,
-      3,
-      48,
-      22
+      29,
+      19,
+      43,
+      19
     ]
   },
   {
@@ -378,18 +438,18 @@
     "asset": "/assets/shop/catalogo.png",
     "available": true,
     "rect": [
-      1190,
+      1204,
       370,
-      100,
-      100,
+      86,
+      89,
       1312,
-      1200
+      1199
     ],
     "placement": [
-      26,
-      3,
-      48,
-      22
+      29,
+      19,
+      43,
+      19
     ]
   },
   {
@@ -403,18 +463,18 @@
     "asset": "/assets/shop/catalogo.png",
     "available": true,
     "rect": [
-      15,
-      545,
-      110,
-      110,
+      27,
+      564,
+      82,
+      72,
       1312,
-      1200
+      1199
     ],
     "placement": [
-      32,
-      0,
       36,
-      16
+      13,
+      30,
+      18
     ]
   },
   {
@@ -428,18 +488,18 @@
     "asset": "/assets/shop/catalogo.png",
     "available": true,
     "rect": [
-      125,
-      545,
-      110,
-      110,
+      138,
+      571,
+      81,
+      71,
       1312,
-      1200
+      1199
     ],
     "placement": [
-      25,
-      2,
-      50,
-      24
+      26,
+      14,
+      48,
+      25
     ]
   },
   {
@@ -453,18 +513,18 @@
     "asset": "/assets/shop/catalogo.png",
     "available": true,
     "rect": [
-      235,
-      545,
-      110,
-      110,
+      252,
+      571,
+      76,
+      73,
       1312,
-      1200
+      1199
     ],
     "placement": [
-      25,
-      2,
-      50,
-      24
+      26,
+      14,
+      48,
+      25
     ]
   },
   {
@@ -478,18 +538,18 @@
     "asset": "/assets/shop/catalogo.png",
     "available": true,
     "rect": [
-      345,
-      545,
-      110,
-      110,
+      359,
+      563,
+      84,
+      85,
       1312,
-      1200
+      1199
     ],
     "placement": [
-      25,
-      2,
-      50,
-      24
+      26,
+      14,
+      48,
+      25
     ]
   },
   {
@@ -503,18 +563,18 @@
     "asset": "/assets/shop/catalogo.png",
     "available": true,
     "rect": [
-      455,
-      545,
-      110,
-      110,
+      476,
+      563,
+      82,
+      83,
       1312,
-      1200
+      1199
     ],
     "placement": [
-      25,
-      2,
-      50,
-      24
+      26,
+      14,
+      48,
+      25
     ]
   },
   {
@@ -528,18 +588,18 @@
     "asset": "/assets/shop/catalogo.png",
     "available": true,
     "rect": [
-      565,
-      545,
-      110,
-      110,
+      587,
+      561,
+      88,
+      87,
       1312,
-      1200
+      1199
     ],
     "placement": [
-      25,
-      2,
-      50,
-      24
+      26,
+      14,
+      48,
+      25
     ]
   },
   {
@@ -553,18 +613,18 @@
     "asset": "/assets/shop/catalogo.png",
     "available": true,
     "rect": [
-      15,
-      665,
-      110,
-      110,
+      29,
+      682,
+      84,
+      76,
       1312,
-      1200
+      1199
     ],
     "placement": [
-      25,
-      2,
-      50,
-      24
+      26,
+      14,
+      48,
+      25
     ]
   },
   {
@@ -578,18 +638,18 @@
     "asset": "/assets/shop/catalogo.png",
     "available": true,
     "rect": [
-      125,
-      665,
-      110,
-      110,
+      138,
+      675,
+      97,
+      83,
       1312,
-      1200
+      1199
     ],
     "placement": [
-      25,
-      2,
-      50,
-      24
+      23,
+      4,
+      54,
+      32
     ]
   },
   {
@@ -603,18 +663,18 @@
     "asset": "/assets/shop/catalogo.png",
     "available": true,
     "rect": [
-      235,
-      665,
-      110,
-      110,
+      253,
+      678,
+      88,
+      86,
       1312,
-      1200
+      1199
     ],
     "placement": [
-      25,
-      2,
-      50,
-      24
+      23,
+      11,
+      55,
+      28
     ]
   },
   {
@@ -628,18 +688,18 @@
     "asset": "/assets/shop/catalogo.png",
     "available": true,
     "rect": [
-      345,
-      665,
-      110,
-      110,
+      356,
+      683,
+      99,
+      75,
       1312,
-      1200
+      1199
     ],
     "placement": [
-      25,
-      2,
-      50,
-      24
+      26,
+      14,
+      48,
+      25
     ]
   },
   {
@@ -653,19 +713,20 @@
     "asset": "/assets/shop/catalogo.png",
     "available": true,
     "rect": [
-      455,
-      665,
-      110,
-      110,
+      485,
+      675,
+      79,
+      94,
       1312,
-      1200
+      1199
     ],
     "placement": [
-      25,
-      2,
-      50,
-      24
-    ]
+      27,
+      18,
+      46,
+      45
+    ],
+    "behind": true
   },
   {
     "id": "hat_12",
@@ -678,18 +739,18 @@
     "asset": "/assets/shop/catalogo.png",
     "available": true,
     "rect": [
-      565,
-      665,
-      110,
-      110,
+      591,
+      677,
+      78,
+      88,
       1312,
-      1200
+      1199
     ],
     "placement": [
-      25,
-      2,
-      50,
-      24
+      26,
+      14,
+      48,
+      25
     ]
   },
   {
@@ -700,21 +761,21 @@
     "level": 1,
     "streak": 0,
     "rarity": "Básico",
-    "asset": "/assets/shop/catalogo.png",
+    "asset": "/assets/shop/ocelote-ropa.png",
     "available": true,
     "rect": [
-      10,
-      815,
-      110,
-      120,
-      1312,
-      1200
+      40,
+      130,
+      285,
+      200,
+      1448,
+      1086
     ],
     "placement": [
-      25,
-      35,
-      50,
-      34
+      24,
+      54,
+      52,
+      25
     ]
   },
   {
@@ -725,21 +786,21 @@
     "level": 1,
     "streak": 0,
     "rarity": "Básico",
-    "asset": "/assets/shop/catalogo.png",
+    "asset": "/assets/shop/ocelote-ropa.png",
     "available": true,
     "rect": [
-      120,
-      815,
-      110,
-      120,
-      1312,
-      1200
+      402,
+      130,
+      285,
+      200,
+      1448,
+      1086
     ],
     "placement": [
-      25,
-      35,
-      50,
-      34
+      24,
+      54,
+      52,
+      25
     ]
   },
   {
@@ -750,21 +811,21 @@
     "level": 1,
     "streak": 0,
     "rarity": "Básico",
-    "asset": "/assets/shop/catalogo.png",
+    "asset": "/assets/shop/ocelote-ropa.png",
     "available": true,
     "rect": [
-      230,
-      815,
-      110,
-      120,
-      1312,
-      1200
+      764,
+      130,
+      285,
+      200,
+      1448,
+      1086
     ],
     "placement": [
-      25,
-      35,
-      50,
-      34
+      24,
+      54,
+      52,
+      25
     ]
   },
   {
@@ -775,21 +836,21 @@
     "level": 1,
     "streak": 0,
     "rarity": "Básico",
-    "asset": "/assets/shop/catalogo.png",
+    "asset": "/assets/shop/ocelote-ropa.png",
     "available": true,
     "rect": [
-      340,
-      815,
-      110,
-      120,
-      1312,
-      1200
+      1126,
+      130,
+      285,
+      200,
+      1448,
+      1086
     ],
     "placement": [
-      25,
-      35,
-      50,
-      34
+      24,
+      54,
+      52,
+      25
     ]
   },
   {
@@ -800,21 +861,21 @@
     "level": 3,
     "streak": 0,
     "rarity": "Especial",
-    "asset": "/assets/shop/catalogo.png",
+    "asset": "/assets/shop/ocelote-ropa.png",
     "available": true,
     "rect": [
-      450,
-      815,
-      110,
-      120,
-      1312,
-      1200
+      40,
+      492,
+      285,
+      200,
+      1448,
+      1086
     ],
     "placement": [
-      25,
-      35,
-      50,
-      34
+      24,
+      54,
+      52,
+      25
     ]
   },
   {
@@ -825,21 +886,21 @@
     "level": 3,
     "streak": 0,
     "rarity": "Especial",
-    "asset": "/assets/shop/catalogo.png",
+    "asset": "/assets/shop/ocelote-ropa.png",
     "available": true,
     "rect": [
-      560,
-      815,
-      110,
-      120,
-      1312,
-      1200
+      402,
+      492,
+      285,
+      200,
+      1448,
+      1086
     ],
     "placement": [
-      25,
-      35,
-      50,
-      34
+      24,
+      54,
+      52,
+      25
     ]
   },
   {
@@ -850,21 +911,21 @@
     "level": 1,
     "streak": 0,
     "rarity": "Básico",
-    "asset": "/assets/shop/catalogo.png",
+    "asset": "/assets/shop/ocelote-ropa.png",
     "available": true,
     "rect": [
-      10,
-      930,
-      110,
-      120,
-      1312,
-      1200
+      764,
+      492,
+      285,
+      225,
+      1448,
+      1086
     ],
     "placement": [
-      20,
-      34,
-      60,
-      63
+      24,
+      54,
+      52,
+      40
     ]
   },
   {
@@ -875,21 +936,21 @@
     "level": 3,
     "streak": 3,
     "rarity": "Especial",
-    "asset": "/assets/shop/catalogo.png",
+    "asset": "/assets/shop/ocelote-ropa.png",
     "available": true,
     "rect": [
-      120,
-      930,
-      110,
-      120,
-      1312,
-      1200
+      1126,
+      492,
+      285,
+      225,
+      1448,
+      1086
     ],
     "placement": [
-      20,
-      34,
-      60,
-      63
+      24,
+      54,
+      52,
+      40
     ]
   },
   {
@@ -900,21 +961,21 @@
     "level": 3,
     "streak": 3,
     "rarity": "Especial",
-    "asset": "/assets/shop/catalogo.png",
+    "asset": "/assets/shop/ocelote-ropa.png",
     "available": true,
     "rect": [
-      230,
-      930,
-      110,
-      120,
-      1312,
-      1200
+      40,
+      829,
+      285,
+      250,
+      1448,
+      1086
     ],
     "placement": [
-      20,
-      34,
-      60,
-      63
+      24,
+      54,
+      52,
+      40
     ]
   },
   {
@@ -925,21 +986,21 @@
     "level": 3,
     "streak": 3,
     "rarity": "Especial",
-    "asset": "/assets/shop/catalogo.png",
+    "asset": "/assets/shop/ocelote-ropa.png",
     "available": true,
     "rect": [
-      340,
-      930,
-      110,
-      120,
-      1312,
-      1200
+      402,
+      829,
+      285,
+      250,
+      1448,
+      1086
     ],
     "placement": [
-      20,
-      34,
-      60,
-      63
+      24,
+      54,
+      52,
+      40
     ]
   },
   {
@@ -950,21 +1011,21 @@
     "level": 5,
     "streak": 7,
     "rarity": "Raro",
-    "asset": "/assets/shop/catalogo.png",
+    "asset": "/assets/shop/ocelote-ropa.png",
     "available": true,
     "rect": [
-      450,
-      930,
-      110,
-      120,
-      1312,
-      1200
+      764,
+      829,
+      285,
+      250,
+      1448,
+      1086
     ],
     "placement": [
-      20,
-      34,
-      60,
-      63
+      24,
+      54,
+      52,
+      40
     ]
   },
   {
@@ -975,21 +1036,21 @@
     "level": 5,
     "streak": 7,
     "rarity": "Raro",
-    "asset": "/assets/shop/catalogo.png",
+    "asset": "/assets/shop/ocelote-ropa.png",
     "available": true,
     "rect": [
-      560,
-      930,
-      110,
-      120,
-      1312,
-      1200
+      1126,
+      829,
+      285,
+      200,
+      1448,
+      1086
     ],
     "placement": [
-      25,
-      35,
-      50,
-      34
+      24,
+      54,
+      52,
+      25
     ]
   },
   {
@@ -1003,18 +1064,18 @@
     "asset": "/assets/shop/catalogo.png",
     "available": true,
     "rect": [
-      690,
-      540,
-      100,
-      110,
+      704,
+      575,
+      84,
+      26,
       1312,
-      1200
+      1199
     ],
     "placement": [
+      36,
       34,
-      23,
-      32,
-      8
+      29,
+      9
     ]
   },
   {
@@ -1028,18 +1089,18 @@
     "asset": "/assets/shop/catalogo.png",
     "available": true,
     "rect": [
-      790,
-      540,
-      100,
-      110,
+      811,
+      570,
+      74,
+      38,
       1312,
-      1200
+      1199
     ],
     "placement": [
-      34,
-      23,
-      32,
-      8
+      35,
+      33,
+      31,
+      12
     ]
   },
   {
@@ -1053,18 +1114,18 @@
     "asset": "/assets/shop/catalogo.png",
     "available": true,
     "rect": [
-      890,
-      540,
-      100,
-      110,
+      909,
+      576,
+      80,
+      28,
       1312,
-      1200
+      1199
     ],
     "placement": [
+      35,
       34,
-      23,
-      32,
-      8
+      31,
+      10
     ]
   },
   {
@@ -1078,18 +1139,18 @@
     "asset": "/assets/shop/catalogo.png",
     "available": true,
     "rect": [
-      990,
-      540,
-      100,
-      110,
+      1013,
+      551,
+      77,
+      61,
       1312,
-      1200
+      1199
     ],
     "placement": [
-      33,
-      22,
       34,
-      10
+      26,
+      33,
+      13
     ]
   },
   {
@@ -1103,18 +1164,18 @@
     "asset": "/assets/shop/catalogo.png",
     "available": true,
     "rect": [
-      1090,
-      540,
-      100,
-      110,
+      1108,
+      546,
+      82,
+      78,
       1312,
-      1200
+      1199
     ],
     "placement": [
-      24,
-      15,
-      52,
-      22
+      23,
+      20,
+      54,
+      28
     ]
   },
   {
@@ -1129,16 +1190,16 @@
     "available": true,
     "rect": [
       1190,
-      540,
-      100,
-      110,
+      564,
+      88,
+      53,
       1312,
-      1200
+      1199
     ],
     "placement": [
-      59,
-      28,
-      8,
+      61,
+      43,
+      7,
       5
     ]
   },
@@ -1153,18 +1214,18 @@
     "asset": "/assets/shop/catalogo.png",
     "available": true,
     "rect": [
-      690,
-      650,
-      100,
-      110,
+      716,
+      671,
+      66,
+      39,
       1312,
-      1200
+      1199
     ],
     "placement": [
-      29,
-      0,
-      42,
-      10
+      35,
+      15,
+      30,
+      8
     ]
   },
   {
@@ -1178,17 +1239,17 @@
     "asset": "/assets/shop/catalogo.png",
     "available": true,
     "rect": [
-      790,
-      650,
-      100,
-      110,
+      815,
+      670,
+      70,
+      42,
       1312,
-      1200
+      1199
     ],
     "placement": [
-      27,
-      1,
-      46,
+      29,
+      19,
+      42,
       16
     ]
   },
@@ -1203,18 +1264,18 @@
     "asset": "/assets/shop/catalogo.png",
     "available": true,
     "rect": [
-      890,
-      650,
-      100,
-      110,
+      916,
+      683,
+      72,
+      40,
       1312,
-      1200
+      1199
     ],
     "placement": [
-      34,
-      28,
-      32,
-      9
+      38,
+      43,
+      25,
+      11
     ]
   },
   {
@@ -1228,18 +1289,18 @@
     "asset": "/assets/shop/catalogo.png",
     "available": true,
     "rect": [
-      990,
-      650,
-      100,
-      110,
+      1014,
+      660,
+      68,
+      71,
       1312,
-      1200
+      1199
     ],
     "placement": [
+      35,
+      54,
       31,
-      33,
-      38,
-      15
+      14
     ]
   },
   {
@@ -1253,18 +1314,18 @@
     "asset": "/assets/shop/catalogo.png",
     "available": true,
     "rect": [
-      1090,
-      650,
-      100,
-      110,
+      1117,
+      656,
+      67,
+      76,
       1312,
-      1200
+      1199
     ],
     "placement": [
-      63,
-      39,
-      27,
-      28
+      68,
+      60,
+      23,
+      27
     ]
   },
   {
@@ -1278,18 +1339,18 @@
     "asset": "/assets/shop/catalogo.png",
     "available": true,
     "rect": [
-      1190,
-      650,
-      100,
-      110,
+      1206,
+      679,
+      84,
+      39,
       1312,
-      1200
+      1199
     ],
     "placement": [
-      12,
-      36,
-      76,
-      26
+      17,
+      57,
+      66,
+      24
     ]
   },
   {
@@ -1303,18 +1364,18 @@
     "asset": "/assets/shop/catalogo.png",
     "available": true,
     "rect": [
-      690,
-      795,
-      100,
-      100,
+      707,
+      805,
+      83,
+      70,
       1312,
-      1200
+      1199
     ],
     "placement": [
-      66,
-      55,
-      27,
-      20
+      67,
+      64,
+      25,
+      23
     ]
   },
   {
@@ -1328,18 +1389,18 @@
     "asset": "/assets/shop/catalogo.png",
     "available": true,
     "rect": [
-      790,
-      795,
-      100,
-      100,
+      816,
+      809,
+      71,
+      66,
       1312,
-      1200
+      1199
     ],
     "placement": [
-      66,
-      55,
-      27,
-      20
+      67,
+      64,
+      25,
+      23
     ]
   },
   {
@@ -1353,18 +1414,18 @@
     "asset": "/assets/shop/catalogo.png",
     "available": true,
     "rect": [
-      890,
-      795,
-      100,
-      100,
+      921,
+      804,
+      65,
+      72,
       1312,
-      1200
+      1199
     ],
     "placement": [
-      66,
-      55,
-      27,
-      20
+      67,
+      64,
+      25,
+      23
     ]
   },
   {
@@ -1378,18 +1439,18 @@
     "asset": "/assets/shop/catalogo.png",
     "available": true,
     "rect": [
-      990,
-      795,
-      100,
-      100,
+      1017,
+      805,
+      73,
+      68,
       1312,
-      1200
+      1199
     ],
     "placement": [
-      66,
-      55,
-      27,
-      20
+      67,
+      64,
+      25,
+      23
     ]
   },
   {
@@ -1403,18 +1464,18 @@
     "asset": "/assets/shop/catalogo.png",
     "available": true,
     "rect": [
-      1090,
-      795,
-      100,
-      100,
+      1115,
+      810,
+      66,
+      79,
       1312,
-      1200
+      1199
     ],
     "placement": [
-      66,
-      55,
-      27,
-      20
+      67,
+      64,
+      25,
+      23
     ]
   },
   {
@@ -1428,18 +1489,18 @@
     "asset": "/assets/shop/catalogo.png",
     "available": true,
     "rect": [
-      1190,
-      795,
-      100,
-      100,
+      1207,
+      816,
+      81,
+      55,
       1312,
-      1200
+      1199
     ],
     "placement": [
-      66,
-      55,
-      27,
-      20
+      67,
+      64,
+      25,
+      23
     ]
   },
   {
@@ -1453,18 +1514,18 @@
     "asset": "/assets/shop/catalogo.png",
     "available": true,
     "rect": [
-      690,
-      900,
-      100,
-      100,
+      713,
+      910,
+      68,
+      72,
       1312,
-      1200
+      1199
     ],
     "placement": [
-      66,
-      55,
-      27,
-      20
+      67,
+      64,
+      25,
+      23
     ]
   },
   {
@@ -1478,18 +1539,18 @@
     "asset": "/assets/shop/catalogo.png",
     "available": true,
     "rect": [
-      790,
-      900,
-      100,
-      100,
+      824,
+      905,
+      55,
+      78,
       1312,
-      1200
+      1199
     ],
     "placement": [
-      66,
-      55,
-      27,
-      20
+      67,
+      64,
+      25,
+      23
     ]
   },
   {
@@ -1503,18 +1564,18 @@
     "asset": "/assets/shop/catalogo.png",
     "available": true,
     "rect": [
-      890,
-      900,
-      100,
-      100,
+      926,
+      904,
+      52,
+      85,
       1312,
-      1200
+      1199
     ],
     "placement": [
-      66,
-      55,
-      27,
-      20
+      67,
+      64,
+      25,
+      23
     ]
   },
   {
@@ -1528,18 +1589,18 @@
     "asset": "/assets/shop/catalogo.png",
     "available": true,
     "rect": [
-      990,
-      900,
-      100,
-      100,
+      1014,
+      920,
+      76,
+      57,
       1312,
-      1200
+      1199
     ],
     "placement": [
-      66,
-      55,
-      27,
-      20
+      67,
+      64,
+      25,
+      23
     ]
   },
   {
@@ -1554,17 +1615,17 @@
     "available": true,
     "rect": [
       1090,
-      900,
-      100,
-      100,
+      904,
+      95,
+      80,
       1312,
-      1200
+      1199
     ],
     "placement": [
-      66,
-      55,
-      27,
-      20
+      67,
+      64,
+      25,
+      23
     ]
   }
 ]

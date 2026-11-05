@@ -78,20 +78,15 @@ function spriteMarkup(item, className = "") {
 }
 
 function avatarMarkup(user, extraClass = "") {
-  const appearance = user.appearance || {};
-  const hasLayers = Object.keys(appearance).some((slot) => slot !== "avatar");
-  if (!appearance.avatar && !hasLayers)
-    return `<span class="avatar ${extraClass}">${esc(user.avatar || "🐯")}</span>`;
-  // Los cosméticos usan el maniquí común para mantener la alineación del cuerpo.
-  const base = hasLayers
-    ? { asset: "/assets/shop/base.png", name: "Base personalizable" }
-    : appearance.avatar;
+  const selected = user.appearance || {};
+  const appearance = { ...(selected.avatar?.preset || {}), ...selected };
+  const base = { asset: "/assets/shop/ocelote-base.png", name: "Tu ocelote" };
   const layers = ["outfit", "hair", "hat", "accessory", "object"]
     .map((slot) => {
       const item = appearance[slot];
       if (!item) return "";
       const [x, y, w, h] = item.placement || [0, 0, 100, 100];
-      return `<span class="character-layer layer-${slot}" style="left:${x}%;top:${y}%;width:${w}%;height:${h}%">${spriteMarkup(item, "layer-sprite")}</span>`;
+      return `<span class="character-layer layer-${slot}${item.id === "hat_11" ? " layer-behind" : ""}" style="left:${x}%;top:${y}%;width:${w}%;height:${h}%">${spriteMarkup(item, "layer-sprite")}</span>`;
     })
     .join("");
   return `<span class="avatar avatar-composed ${extraClass}"><span class="character-stage">${spriteMarkup(base, "character-base")}${layers}</span></span>`;
@@ -303,7 +298,9 @@ function renderMissions() {
 }
 
 function itemArtwork(item) {
-  return spriteMarkup(item, "shop-art");
+  return item.slot === "avatar"
+    ? avatarMarkup({ appearance: { avatar: item } }, "shop-avatar")
+    : spriteMarkup(item, "shop-art");
 }
 
 function renderShop() {
@@ -331,8 +328,8 @@ function renderShop() {
             : "Tu apariencia original"}
         </p>
         <p class="wardrobe-hint">
-          Los avatares son conjuntos completos. Al equipar piezas individuales se usa la base
-          personalizable para combinarlas.
+          Tu ocelote puede combinar peinados, sombreros, ropa, accesorios y objetos.
+          Tus compras y desbloqueos anteriores se conservan.
         </p>
         <small>Nivel ${user.level} · Mejor racha: ${user.best_streak} días</small>
         ${equipped.length

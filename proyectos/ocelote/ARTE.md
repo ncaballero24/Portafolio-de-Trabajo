@@ -12,3 +12,14 @@ Se utilizó ImageGen para quitar los fondos a catalogo.png, base.png, bases.png 
 - Conjuntos: quitar únicamente el fondo crema; preservar ambos personajes completos, ropa, cabello, posiciones y proporción.
 
 Las salidas generadas también se conservaron en la carpeta generated_images de Codex. Esta copia local permite ejecutar el foro sin depender de esa carpeta.
+
+## Ocelotes personalizables
+
+Herramienta: ImageGen integrada, salida transparente. Archivos en
+`static/assets/shop/ocelote-base.png` y `ocelote-ropa.png`.
+Prompt de base: ocelote sonriente dorado con manchas, pixel art como la referencia,
+pose frontal de cuerpo completo, brazos bajos, polo blanco de cuello guinda y short
+azul, sin accesorios ni escenario, fondo transparente y espacio para sombreros.
+Prompt de ropa: atlas transparente de 4 × 3, doce prendas y disfraces adaptados al
+cuerpo del ocelote, sin cabeza ni rostro; sudaderas, chaquetas, uniformes, rana,
+conejo, esqueleto, plátano y tiburón. Los recortes y posiciones se definen en catálogo.

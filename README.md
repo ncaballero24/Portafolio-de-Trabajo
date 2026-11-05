@@ -27,7 +27,7 @@ rachas y cosméticos desbloqueables. Se ejecuta localmente con Python sin paquet
 
 [Instalación y configuración del administrador](proyectos/ocelote/README.md)
 
-![Tutorial móvil de Ocelote](docs/ocelote-introduccion-movil.png)
+![Vestidor de ocelotes personalizables](docs/ocelote-avatares.png)
 
 ## Alcance de esta entrega
 

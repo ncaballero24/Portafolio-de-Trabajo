@@ -283,7 +283,7 @@ def appearance(c, uid):
     return {
         item["slot"]: {
             key: item.get(key)
-            for key in ("id", "name", "asset", "rect", "placement", "slot")
+            for key in ("id", "name", "asset", "rect", "placement", "slot", "preset")
         }
         for item in CATALOG
         if item["id"] in ids
